@@ -1,0 +1,604 @@
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 23
+"GET / HTTP/1.1" 200 5
+E:\pythonProject\djangoGB\djangoGB\settings.py changed, reloading.
+Index page accessed
+About page accessed
+Index page accessed
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 5
+Index page accessed
+"GET / HTTP/1.1" 200 5
+About page accessed
+"GET /about/ HTTP/1.1" 200 23
+About page accessed
+"GET /about/ HTTP/1.1" 200 23
+E:\pythonProject\djangoGB\djangoGB\settings.py changed, reloading.
+INFO 2023-09-26 07:34:56,115 autoreload 11464 10488 Watching for file changes with StatReloader
+DEBUG 2023-09-26 07:34:58,746 views 11464 528 About page accessed
+INFO 2023-09-26 07:34:58,747 basehttp 11464 528 "GET /about/ HTTP/1.1" 200 23
+INFO 2023-09-26 07:35:09,011 views 11464 528 Index page accessed
+INFO 2023-09-26 07:35:09,012 basehttp 11464 528 "GET / HTTP/1.1" 200 5
+INFO 2023-09-26 20:07:34,844 autoreload 10168 9240 Watching for file changes with StatReloader
+INFO 2023-09-26 20:07:39,544 views 10168 9292 Index page accessed
+ERROR 2023-09-26 20:07:39,630 log 10168 9292 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 816, in __init__
+    self.literal = float(var)
+ValueError: could not convert string to float: 'item._id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 832, in __init__
+    self.literal = mark_safe(unescape_string_literal(var))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\utils\functional.py", line 246, in wrapper
+    return func(*args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\utils\text.py", line 414, in unescape_string_literal
+    raise ValueError("Not a string literal: %r" % s)
+ValueError: Not a string literal: 'item._id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 11, in index
+    return render(request, 'index.html')
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 689, in __init__
+    var_obj = Variable(var)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 837, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Variables and attributes may not begin with underscores: 'item._id'
+ERROR 2023-09-26 20:07:39,636 basehttp 10168 9292 "GET / HTTP/1.1" 500 220176
+WARNING 2023-09-26 20:07:39,906 log 10168 9292 Not Found: /favicon.ico
+WARNING 2023-09-26 20:07:39,906 basehttp 10168 9292 "GET /favicon.ico HTTP/1.1" 404 2440
+INFO 2023-09-26 20:08:37,924 views 10168 9292 Index page accessed
+ERROR 2023-09-26 20:08:37,963 log 10168 9292 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 11, in index
+    return render(request, 'index.html')
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+ERROR 2023-09-26 20:08:37,966 basehttp 10168 9292 "GET / HTTP/1.1" 500 201744
+INFO 2023-09-26 20:09:15,595 views 10168 9292 Index page accessed
+INFO 2023-09-26 20:09:15,596 basehttp 10168 9292 "GET / HTTP/1.1" 200 4010
+INFO 2023-09-26 20:09:17,784 views 10168 9292 Index page accessed
+INFO 2023-09-26 20:09:17,785 basehttp 10168 9292 "GET / HTTP/1.1" 200 4010
+INFO 2023-09-26 20:09:18,677 views 10168 9292 Index page accessed
+INFO 2023-09-26 20:09:18,678 basehttp 10168 9292 "GET / HTTP/1.1" 200 4010
+INFO 2023-09-26 20:09:19,326 views 10168 9292 Index page accessed
+INFO 2023-09-26 20:09:19,326 basehttp 10168 9292 "GET / HTTP/1.1" 200 4010
+INFO 2023-09-26 20:15:16,405 autoreload 10168 9240 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-26 20:15:16,925 autoreload 18788 14648 Watching for file changes with StatReloader
+INFO 2023-09-26 20:16:22,787 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:16:22,791 basehttp 18788 11436 "GET / HTTP/1.1" 200 4010
+INFO 2023-09-26 20:16:24,138 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:16:24,138 basehttp 18788 11436 "GET / HTTP/1.1" 200 4010
+DEBUG 2023-09-26 20:16:27,122 views 18788 11436 About page accessed
+INFO 2023-09-26 20:16:27,123 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2920
+DEBUG 2023-09-26 20:16:33,489 views 18788 11436 About page accessed
+INFO 2023-09-26 20:16:33,489 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2920
+DEBUG 2023-09-26 20:16:34,328 views 18788 11436 About page accessed
+INFO 2023-09-26 20:16:34,329 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2924
+DEBUG 2023-09-26 20:16:38,075 views 18788 11436 About page accessed
+INFO 2023-09-26 20:16:38,077 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2924
+DEBUG 2023-09-26 20:17:03,424 views 18788 11436 About page accessed
+INFO 2023-09-26 20:17:03,425 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2966
+DEBUG 2023-09-26 20:17:33,703 views 18788 11436 About page accessed
+INFO 2023-09-26 20:17:33,704 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2966
+DEBUG 2023-09-26 20:17:34,408 views 18788 11436 About page accessed
+INFO 2023-09-26 20:17:34,409 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3010
+DEBUG 2023-09-26 20:17:38,738 views 18788 11436 About page accessed
+INFO 2023-09-26 20:17:38,740 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3010
+DEBUG 2023-09-26 20:17:39,451 views 18788 11436 About page accessed
+INFO 2023-09-26 20:17:39,452 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3010
+DEBUG 2023-09-26 20:17:48,534 views 18788 11436 About page accessed
+INFO 2023-09-26 20:17:48,535 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3010
+DEBUG 2023-09-26 20:18:16,336 views 18788 11436 About page accessed
+INFO 2023-09-26 20:18:16,339 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2972
+DEBUG 2023-09-26 20:18:18,999 views 18788 11436 About page accessed
+INFO 2023-09-26 20:18:19,001 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2976
+DEBUG 2023-09-26 20:19:01,923 views 18788 11436 About page accessed
+INFO 2023-09-26 20:19:01,924 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2976
+DEBUG 2023-09-26 20:19:02,562 views 18788 11436 About page accessed
+INFO 2023-09-26 20:19:02,563 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2976
+DEBUG 2023-09-26 20:19:22,680 views 18788 11436 About page accessed
+INFO 2023-09-26 20:19:22,682 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3016
+DEBUG 2023-09-26 20:19:26,006 views 18788 11436 About page accessed
+INFO 2023-09-26 20:19:26,008 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3016
+DEBUG 2023-09-26 20:19:36,981 views 18788 11436 About page accessed
+INFO 2023-09-26 20:19:36,983 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3016
+DEBUG 2023-09-26 20:19:40,790 views 18788 11436 About page accessed
+INFO 2023-09-26 20:19:40,791 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3016
+DEBUG 2023-09-26 20:20:02,975 views 18788 11436 About page accessed
+INFO 2023-09-26 20:20:02,976 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3025
+DEBUG 2023-09-26 20:20:07,948 views 18788 11436 About page accessed
+INFO 2023-09-26 20:20:07,954 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2985
+DEBUG 2023-09-26 20:20:20,103 views 18788 11436 About page accessed
+INFO 2023-09-26 20:20:20,105 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2985
+DEBUG 2023-09-26 20:20:32,768 views 18788 11436 About page accessed
+INFO 2023-09-26 20:20:32,769 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2976
+DEBUG 2023-09-26 20:20:40,033 views 18788 11436 About page accessed
+INFO 2023-09-26 20:20:40,034 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2981
+DEBUG 2023-09-26 20:20:48,438 views 18788 11436 About page accessed
+INFO 2023-09-26 20:20:48,439 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2986
+DEBUG 2023-09-26 20:21:19,051 views 18788 11436 About page accessed
+INFO 2023-09-26 20:21:19,052 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2986
+DEBUG 2023-09-26 20:21:20,017 views 18788 11436 About page accessed
+INFO 2023-09-26 20:21:20,017 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2986
+DEBUG 2023-09-26 20:21:20,935 views 18788 11436 About page accessed
+INFO 2023-09-26 20:21:20,936 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2986
+DEBUG 2023-09-26 20:22:02,968 views 18788 11436 About page accessed
+INFO 2023-09-26 20:22:02,969 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2996
+DEBUG 2023-09-26 20:22:03,735 views 18788 11436 About page accessed
+INFO 2023-09-26 20:22:03,736 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2996
+WARNING 2023-09-26 20:22:05,739 log 18788 11436 Not Found: /about/index.html
+WARNING 2023-09-26 20:22:05,739 basehttp 18788 11436 "GET /about/index.html HTTP/1.1" 404 2455
+WARNING 2023-09-26 20:23:21,864 log 18788 11436 Not Found: /about/index.html
+WARNING 2023-09-26 20:23:21,864 basehttp 18788 11436 "GET /about/index.html HTTP/1.1" 404 2455
+WARNING 2023-09-26 20:23:23,407 log 18788 11436 Not Found: /about/index.html
+WARNING 2023-09-26 20:23:23,407 basehttp 18788 11436 "GET /about/index.html HTTP/1.1" 404 2455
+WARNING 2023-09-26 20:23:42,757 log 18788 11436 Not Found: /about/index.html
+WARNING 2023-09-26 20:23:42,757 basehttp 18788 11436 "GET /about/index.html HTTP/1.1" 404 2455
+DEBUG 2023-09-26 20:23:45,571 views 18788 11436 About page accessed
+INFO 2023-09-26 20:23:45,574 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2987
+DEBUG 2023-09-26 20:23:46,553 views 18788 11436 About page accessed
+INFO 2023-09-26 20:23:46,554 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2987
+INFO 2023-09-26 20:23:48,920 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:23:48,921 basehttp 18788 11436 "GET / HTTP/1.1" 200 4011
+INFO 2023-09-26 20:23:50,059 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:23:50,060 basehttp 18788 11436 "GET / HTTP/1.1" 200 4011
+INFO 2023-09-26 20:23:50,497 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:23:50,498 basehttp 18788 11436 "GET / HTTP/1.1" 200 4011
+INFO 2023-09-26 20:23:53,562 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:23:53,562 basehttp 18788 11436 "GET / HTTP/1.1" 200 4011
+INFO 2023-09-26 20:23:54,858 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:23:54,859 basehttp 18788 11436 "GET / HTTP/1.1" 200 4011
+INFO 2023-09-26 20:23:55,331 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:23:55,332 basehttp 18788 11436 "GET / HTTP/1.1" 200 4011
+INFO 2023-09-26 20:23:56,262 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:23:56,263 basehttp 18788 11436 "GET / HTTP/1.1" 200 4011
+INFO 2023-09-26 20:24:19,444 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:19,446 basehttp 18788 11436 "GET / HTTP/1.1" 200 4019
+INFO 2023-09-26 20:24:20,612 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:20,612 basehttp 18788 11436 "GET / HTTP/1.1" 200 4019
+INFO 2023-09-26 20:24:21,162 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:21,163 basehttp 18788 11436 "GET / HTTP/1.1" 200 4019
+DEBUG 2023-09-26 20:24:23,017 views 18788 11436 About page accessed
+INFO 2023-09-26 20:24:23,019 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2995
+DEBUG 2023-09-26 20:24:24,512 views 18788 11436 About page accessed
+INFO 2023-09-26 20:24:24,513 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 2995
+INFO 2023-09-26 20:24:25,051 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:25,052 basehttp 18788 11436 "GET / HTTP/1.1" 200 4019
+INFO 2023-09-26 20:24:26,284 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:26,285 basehttp 18788 11436 "GET / HTTP/1.1" 200 4019
+INFO 2023-09-26 20:24:26,882 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:26,883 basehttp 18788 11436 "GET / HTTP/1.1" 200 4019
+INFO 2023-09-26 20:24:49,540 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:49,541 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:24:50,774 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:50,775 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+DEBUG 2023-09-26 20:24:51,225 views 18788 11436 About page accessed
+INFO 2023-09-26 20:24:51,226 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3003
+INFO 2023-09-26 20:24:52,199 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:52,200 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:24:52,788 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:52,789 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+DEBUG 2023-09-26 20:24:53,427 views 18788 11436 About page accessed
+INFO 2023-09-26 20:24:53,428 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3003
+INFO 2023-09-26 20:24:53,949 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:53,950 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:24:54,784 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:54,785 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+DEBUG 2023-09-26 20:24:55,736 views 18788 11436 About page accessed
+INFO 2023-09-26 20:24:55,737 basehttp 18788 11436 "GET /about/ HTTP/1.1" 200 3003
+INFO 2023-09-26 20:24:56,770 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:24:56,771 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:25:32,897 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:25:32,898 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:25:34,223 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:25:34,224 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:25:35,341 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:25:35,342 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:25:35,740 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:25:35,741 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:25:36,056 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:25:36,057 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:25:36,343 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:25:36,344 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:25:37,040 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:25:37,041 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:27:20,950 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:27:20,951 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:27:21,380 views 18788 11436 Index page accessed
+INFO 2023-09-26 20:27:21,381 basehttp 18788 11436 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 20:31:45,132 autoreload 18788 14648 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:31:45,666 autoreload 1036 8416 Watching for file changes with StatReloader
+INFO 2023-09-26 20:32:32,889 autoreload 1036 8416 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:32:33,352 autoreload 13508 19304 Watching for file changes with StatReloader
+INFO 2023-09-26 20:32:41,923 autoreload 13508 19304 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:32:42,426 autoreload 15108 17220 Watching for file changes with StatReloader
+INFO 2023-09-26 20:33:01,607 autoreload 15108 17220 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:33:02,094 autoreload 18684 12956 Watching for file changes with StatReloader
+INFO 2023-09-26 20:34:44,713 autoreload 18684 12956 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:34:45,180 autoreload 1420 9344 Watching for file changes with StatReloader
+INFO 2023-09-26 20:35:13,370 autoreload 1420 9344 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:35:13,848 autoreload 19372 14804 Watching for file changes with StatReloader
+INFO 2023-09-26 20:36:04,891 autoreload 19372 14804 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:36:05,400 autoreload 14976 18604 Watching for file changes with StatReloader
+INFO 2023-09-26 20:37:23,010 autoreload 14976 18604 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:37:23,533 autoreload 1508 7712 Watching for file changes with StatReloader
+INFO 2023-09-26 20:37:38,318 autoreload 1508 7712 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:37:38,798 autoreload 17452 15964 Watching for file changes with StatReloader
+INFO 2023-09-26 20:38:02,931 autoreload 17452 15964 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:38:03,415 autoreload 5656 10688 Watching for file changes with StatReloader
+INFO 2023-09-26 20:41:18,398 autoreload 5656 10688 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:41:18,892 autoreload 19160 19396 Watching for file changes with StatReloader
+INFO 2023-09-26 20:43:10,506 autoreload 19160 19396 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:43:10,964 autoreload 1480 16624 Watching for file changes with StatReloader
+INFO 2023-09-26 20:43:35,234 autoreload 1480 16624 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:43:35,710 autoreload 18600 3232 Watching for file changes with StatReloader
+INFO 2023-09-26 20:43:54,718 autoreload 18600 3232 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:43:55,177 autoreload 14820 11576 Watching for file changes with StatReloader
+INFO 2023-09-26 20:44:43,318 autoreload 14820 11576 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:44:43,788 autoreload 12832 16716 Watching for file changes with StatReloader
+INFO 2023-09-26 20:59:11,134 autoreload 12832 16716 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 20:59:11,576 autoreload 19372 19148 Watching for file changes with StatReloader
+INFO 2023-09-26 21:00:49,166 autoreload 19372 19148 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:00:49,633 autoreload 19392 9068 Watching for file changes with StatReloader
+INFO 2023-09-26 21:02:21,832 autoreload 19392 9068 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:02:22,287 autoreload 412 11136 Watching for file changes with StatReloader
+INFO 2023-09-26 21:02:45,282 autoreload 412 11136 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:02:45,714 autoreload 16364 12696 Watching for file changes with StatReloader
+INFO 2023-09-26 21:03:03,579 autoreload 16364 12696 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:03:04,024 autoreload 7380 13628 Watching for file changes with StatReloader
+INFO 2023-09-26 21:03:42,557 autoreload 7380 13628 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:03:43,043 autoreload 6624 8900 Watching for file changes with StatReloader
+INFO 2023-09-26 21:05:01,828 autoreload 6624 8900 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:05:02,286 autoreload 7548 1560 Watching for file changes with StatReloader
+INFO 2023-09-26 21:05:56,326 autoreload 7548 1560 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:05:56,779 autoreload 8140 16596 Watching for file changes with StatReloader
+INFO 2023-09-26 21:07:12,457 autoreload 8140 16596 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:07:12,899 autoreload 7112 12232 Watching for file changes with StatReloader
+INFO 2023-09-26 21:08:02,894 autoreload 7112 12232 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:08:03,367 autoreload 14896 15572 Watching for file changes with StatReloader
+INFO 2023-09-26 21:08:10,885 autoreload 14896 15572 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:08:11,331 autoreload 6440 13572 Watching for file changes with StatReloader
+INFO 2023-09-26 21:08:25,030 autoreload 6440 13572 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:08:25,497 autoreload 15348 15668 Watching for file changes with StatReloader
+INFO 2023-09-26 21:09:40,917 autoreload 15348 15668 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:09:41,382 autoreload 6304 16988 Watching for file changes with StatReloader
+INFO 2023-09-26 21:10:21,308 autoreload 6304 16988 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:10:21,827 autoreload 10912 19112 Watching for file changes with StatReloader
+INFO 2023-09-26 21:10:25,914 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:25,920 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+WARNING 2023-09-26 21:10:27,158 log 10912 17884 Forbidden (CSRF cookie not set.): /
+WARNING 2023-09-26 21:10:27,158 basehttp 10912 17884 "POST / HTTP/1.1" 403 3346
+INFO 2023-09-26 21:10:28,798 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:28,799 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 21:10:29,830 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:29,831 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 21:10:30,221 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:30,222 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 21:10:31,336 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:31,338 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+DEBUG 2023-09-26 21:10:32,298 views 10912 17884 About page accessed
+INFO 2023-09-26 21:10:32,300 basehttp 10912 17884 "GET /about/ HTTP/1.1" 200 3003
+DEBUG 2023-09-26 21:10:33,087 views 10912 17884 About page accessed
+INFO 2023-09-26 21:10:33,089 basehttp 10912 17884 "GET /about/ HTTP/1.1" 200 3003
+INFO 2023-09-26 21:10:33,649 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:33,650 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+DEBUG 2023-09-26 21:10:34,901 views 10912 17884 About page accessed
+INFO 2023-09-26 21:10:34,902 basehttp 10912 17884 "GET /about/ HTTP/1.1" 200 3003
+INFO 2023-09-26 21:10:37,520 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:37,520 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 21:10:39,085 views 10912 17884 Index page accessed
+INFO 2023-09-26 21:10:39,085 basehttp 10912 17884 "GET / HTTP/1.1" 200 4027
+INFO 2023-09-26 21:12:15,889 autoreload 10912 19112 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-26 21:12:16,361 autoreload 15564 17592 Watching for file changes with StatReloader
+INFO 2023-09-26 21:13:20,283 views 15564 6720 Index page accessed
+ERROR 2023-09-26 21:13:20,331 log 15564 6720 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2023-09-26 21:13:20,336 basehttp 15564 6720 "GET / HTTP/1.1" 500 169111
+INFO 2023-09-26 21:13:21,824 views 15564 6720 Index page accessed
+ERROR 2023-09-26 21:13:21,853 log 15564 6720 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2023-09-26 21:13:21,856 basehttp 15564 6720 "GET / HTTP/1.1" 500 169248
+INFO 2023-09-26 21:13:49,619 autoreload 15564 17592 E:\pythonProject\djangoGB\store\urls.py changed, reloading.
+INFO 2023-09-26 21:13:50,110 autoreload 12852 11616 Watching for file changes with StatReloader
+INFO 2023-09-26 21:13:51,442 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:13:51,448 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:13:52,470 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:13:52,471 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:13:52,986 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:13:52,987 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+DEBUG 2023-09-26 21:13:54,433 views 12852 1908 About page accessed
+INFO 2023-09-26 21:13:54,435 basehttp 12852 1908 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:13:55,918 views 12852 1908 About page accessed
+INFO 2023-09-26 21:13:55,918 basehttp 12852 1908 "GET /info/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:13:57,103 views 12852 1908 About page accessed
+INFO 2023-09-26 21:13:57,105 basehttp 12852 1908 "GET /info/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:13:58,090 views 12852 1908 About page accessed
+INFO 2023-09-26 21:13:58,091 basehttp 12852 1908 "GET /about/ HTTP/1.1" 200 2990
+INFO 2023-09-26 21:14:00,263 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:00,264 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+DEBUG 2023-09-26 21:14:02,429 views 12852 1908 About page accessed
+INFO 2023-09-26 21:14:02,430 basehttp 12852 1908 "GET /info/ HTTP/1.1" 200 2990
+INFO 2023-09-26 21:14:03,800 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:03,801 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:14:04,787 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:04,788 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:14:05,285 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:05,286 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:14:05,724 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:05,725 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+DEBUG 2023-09-26 21:14:06,065 views 12852 1908 About page accessed
+INFO 2023-09-26 21:14:06,066 basehttp 12852 1908 "GET /about/ HTTP/1.1" 200 2990
+INFO 2023-09-26 21:14:07,429 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:07,430 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+DEBUG 2023-09-26 21:14:07,975 views 12852 1908 About page accessed
+INFO 2023-09-26 21:14:07,976 basehttp 12852 1908 "GET /info/ HTTP/1.1" 200 2990
+INFO 2023-09-26 21:14:09,997 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:09,998 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:14:35,045 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:35,046 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+DEBUG 2023-09-26 21:14:35,982 views 12852 1908 About page accessed
+INFO 2023-09-26 21:14:35,983 basehttp 12852 1908 "GET /info/ HTTP/1.1" 200 2990
+INFO 2023-09-26 21:14:38,520 views 12852 1908 Index page accessed
+INFO 2023-09-26 21:14:38,521 basehttp 12852 1908 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:14:42,729 autoreload 12852 11616 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-26 21:14:43,227 autoreload 8760 17412 Watching for file changes with StatReloader
+INFO 2023-09-26 21:14:44,272 views 8760 3464 Index page accessed
+INFO 2023-09-26 21:14:44,279 basehttp 8760 3464 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:14:46,274 views 8760 3464 Index page accessed
+INFO 2023-09-26 21:14:46,275 basehttp 8760 3464 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:14:46,926 views 8760 3464 Index page accessed
+INFO 2023-09-26 21:14:46,927 basehttp 8760 3464 "GET / HTTP/1.1" 200 4039
+DEBUG 2023-09-26 21:14:47,351 views 8760 3464 About page accessed
+INFO 2023-09-26 21:14:47,353 basehttp 8760 3464 "GET /info/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:14:49,249 views 8760 3464 About page accessed
+INFO 2023-09-26 21:14:49,250 basehttp 8760 3464 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:14:49,966 views 8760 3464 About page accessed
+INFO 2023-09-26 21:14:49,967 basehttp 8760 3464 "GET /info/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:14:51,230 views 8760 3464 About page accessed
+INFO 2023-09-26 21:14:51,231 basehttp 8760 3464 "GET /about/ HTTP/1.1" 200 2990
+INFO 2023-09-26 21:15:09,657 autoreload 8760 17412 E:\pythonProject\djangoGB\store\urls.py changed, reloading.
+INFO 2023-09-26 21:15:10,136 autoreload 13908 9640 Watching for file changes with StatReloader
+INFO 2023-09-26 21:15:10,397 views 13908 16632 Index page accessed
+INFO 2023-09-26 21:15:10,403 basehttp 13908 16632 "GET / HTTP/1.1" 200 4039
+DEBUG 2023-09-26 21:15:11,356 views 13908 16632 About page accessed
+INFO 2023-09-26 21:15:11,357 basehttp 13908 16632 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:15:12,520 views 13908 16632 Info page accessed
+INFO 2023-09-26 21:15:12,521 basehttp 13908 16632 "GET /info/ HTTP/1.1" 200 2991
+DEBUG 2023-09-26 21:15:14,350 views 13908 16632 About page accessed
+INFO 2023-09-26 21:15:14,351 basehttp 13908 16632 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:15:17,097 views 13908 16632 About page accessed
+INFO 2023-09-26 21:15:17,098 basehttp 13908 16632 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-26 21:15:18,792 views 13908 16632 Info page accessed
+INFO 2023-09-26 21:15:18,792 basehttp 13908 16632 "GET /info/ HTTP/1.1" 200 2991
+INFO 2023-09-26 21:15:19,534 views 13908 16632 Index page accessed
+INFO 2023-09-26 21:15:19,535 basehttp 13908 16632 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:15:20,072 views 13908 16632 Index page accessed
+INFO 2023-09-26 21:15:20,073 basehttp 13908 16632 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:15:21,448 views 13908 16632 Index page accessed
+INFO 2023-09-26 21:15:21,449 basehttp 13908 16632 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:15:21,958 views 13908 16632 Index page accessed
+INFO 2023-09-26 21:15:21,959 basehttp 13908 16632 "GET / HTTP/1.1" 200 4039
+INFO 2023-09-26 21:16:07,864 autoreload 13908 9640 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 21:16:08,348 autoreload 8856 11576 Watching for file changes with StatReloader
+INFO 2023-09-26 22:32:31,142 autoreload 9724 8400 Watching for file changes with StatReloader
+INFO 2023-09-26 22:32:41,762 autoreload 9724 8400 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-26 22:32:42,233 autoreload 6316 6076 Watching for file changes with StatReloader
+INFO 2023-09-27 01:28:24,105 autoreload 16512 18560 Watching for file changes with StatReloader
+INFO 2023-09-27 01:28:25,160 views 16512 16408 Index page accessed
+INFO 2023-09-27 01:28:25,173 basehttp 16512 16408 "GET / HTTP/1.1" 200 5242
+INFO 2023-09-27 01:28:28,489 views 16512 16408 Index page accessed
+INFO 2023-09-27 01:28:28,492 basehttp 16512 16408 "GET / HTTP/1.1" 200 5242
+DEBUG 2023-09-27 01:28:29,811 views 16512 16408 About page accessed
+INFO 2023-09-27 01:28:29,812 basehttp 16512 16408 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-27 01:28:30,709 views 16512 16408 Info page accessed
+INFO 2023-09-27 01:28:30,710 basehttp 16512 16408 "GET /info/ HTTP/1.1" 200 2991
+INFO 2023-09-27 01:28:31,389 views 16512 16408 Index page accessed
+INFO 2023-09-27 01:28:31,391 basehttp 16512 16408 "GET / HTTP/1.1" 200 5242
+INFO 2023-09-27 01:28:56,429 views 16512 16408 Index page accessed
+INFO 2023-09-27 01:28:56,432 basehttp 16512 16408 "GET / HTTP/1.1" 200 5242
+INFO 2023-09-27 01:28:57,070 views 16512 16408 Index page accessed
+INFO 2023-09-27 01:28:57,073 basehttp 16512 16408 "GET / HTTP/1.1" 200 5246
+INFO 2023-09-27 01:29:01,589 views 16512 16408 Index page accessed
+INFO 2023-09-27 01:29:01,591 basehttp 16512 16408 "GET / HTTP/1.1" 200 5246
+WARNING 2023-09-27 01:29:01,969 log 16512 16408 Forbidden (CSRF cookie not set.): /
+WARNING 2023-09-27 01:29:01,970 basehttp 16512 16408 "POST / HTTP/1.1" 403 3346
+INFO 2023-09-27 01:31:07,206 autoreload 6924 8820 Watching for file changes with StatReloader
+INFO 2023-09-27 01:31:08,777 views 6924 16688 Index page accessed
+INFO 2023-09-27 01:31:08,787 basehttp 6924 16688 "GET / HTTP/1.1" 200 6432
