@@ -962,3 +962,295 @@ INFO 2023-09-27 04:04:18,062 views 9656 17184 Index page accessed
 INFO 2023-09-27 04:04:18,065 basehttp 9656 17184 "GET / HTTP/1.1" 200 9780
 DEBUG 2023-09-27 04:04:18,737 views 9656 17184 About page accessed
 INFO 2023-09-27 04:04:18,739 basehttp 9656 17184 "GET /about/ HTTP/1.1" 200 2990
+INFO 2023-09-27 05:55:50,721 autoreload 600 10368 Watching for file changes with StatReloader
+INFO 2023-09-27 05:55:51,744 views 600 17940 Index page accessed
+INFO 2023-09-27 05:55:51,763 basehttp 600 17940 "GET / HTTP/1.1" 200 9774
+WARNING 2023-09-27 05:55:51,864 log 600 17940 Not Found: /favicon.ico
+WARNING 2023-09-27 05:55:51,865 basehttp 600 17940 "GET /favicon.ico HTTP/1.1" 404 3498
+INFO 2023-09-27 05:55:53,101 views 600 17940 Index page accessed
+INFO 2023-09-27 05:55:53,104 basehttp 600 17940 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 05:56:10,498 basehttp 600 17940 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-27 05:56:10,511 basehttp 600 4240 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-27 05:56:10,545 basehttp 600 4240 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-27 05:56:10,623 basehttp 600 4240 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-27 05:56:10,626 basehttp 600 4240 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-27 05:56:10,660 basehttp 600 2832 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-27 05:56:10,662 basehttp 600 8796 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-27 05:56:10,662 basehttp 600 16516 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-27 05:56:10,663 basehttp 600 15908 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-27 05:56:10,663 basehttp 600 12116 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-27 05:56:17,577 basehttp 600 15908 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-27 05:56:17,592 basehttp 600 15908 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-27 05:56:17,619 basehttp 600 15908 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-27 05:56:17,626 basehttp 600 15908 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-27 05:56:17,626 basehttp 600 12116 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-27 05:56:42,438 basehttp 600 12116 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-27 05:56:42,475 basehttp 600 8796 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-27 05:56:42,477 basehttp 600 12116 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-27 05:56:42,477 basehttp 600 2832 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-27 05:56:42,478 basehttp 600 4240 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-27 05:56:42,480 basehttp 600 8796 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-27 05:56:42,482 basehttp 600 12116 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-27 05:56:42,484 basehttp 600 15908 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 05:56:42,485 basehttp 600 2832 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-27 05:56:42,487 basehttp 600 12116 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-27 05:56:42,487 basehttp 600 8796 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-27 05:56:42,488 basehttp 600 16516 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-27 05:56:42,488 basehttp 600 4240 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-27 05:56:42,494 basehttp 600 4240 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-27 05:56:56,050 basehttp 600 4240 "POST /admin/auth/user/add/ HTTP/1.1" 200 11464
+INFO 2023-09-27 05:56:56,088 basehttp 600 4240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 05:57:31,090 basehttp 600 4240 "POST /admin/auth/user/add/ HTTP/1.1" 200 11208
+INFO 2023-09-27 05:57:31,122 basehttp 600 4240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 05:57:43,554 basehttp 600 4240 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-27 05:57:43,590 basehttp 600 4240 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22641
+INFO 2023-09-27 05:57:43,624 basehttp 600 12116 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-27 05:57:43,624 basehttp 600 2832 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-27 05:57:43,624 basehttp 600 16516 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-27 05:57:43,627 basehttp 600 8796 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-27 05:57:43,627 basehttp 600 4240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 05:57:43,640 basehttp 600 4240 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-27 05:57:43,673 basehttp 600 4240 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-27 05:57:43,675 basehttp 600 8796 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-27 05:57:43,677 basehttp 600 16516 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-27 05:57:43,677 basehttp 600 2832 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-27 05:58:02,418 basehttp 600 2832 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-27 05:58:02,448 basehttp 600 2832 "GET /admin/auth/user/ HTTP/1.1" 200 11908
+INFO 2023-09-27 05:58:02,486 basehttp 600 2832 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-27 05:58:02,492 basehttp 600 2832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 05:58:02,492 basehttp 600 16516 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-27 05:58:02,497 basehttp 600 16516 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-27 05:58:02,505 basehttp 600 16516 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-27 05:58:02,506 basehttp 600 2832 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-27 05:58:19,705 views 600 2832 Index page accessed
+INFO 2023-09-27 05:58:19,708 basehttp 600 2832 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 05:58:27,159 basehttp 600 2832 "GET /account/login HTTP/1.1" 301 0
+ERROR 2023-09-27 05:58:27,198 log 600 16516 Internal Server Error: /account/login/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 25, in user_login
+    return render(request, 'account/login.html', {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-27 05:58:27,201 basehttp 600 16516 "GET /account/login/ HTTP/1.1" 500 132090
+ERROR 2023-09-27 05:58:45,278 log 600 16516 Internal Server Error: /account/login/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 25, in user_login
+    return render(request, 'account/login.html', {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-27 05:58:45,280 basehttp 600 16516 "GET /account/login/ HTTP/1.1" 500 132227
+INFO 2023-09-27 05:59:49,820 basehttp 600 16516 "GET /account/login/ HTTP/1.1" 200 792
+WARNING 2023-09-27 05:59:49,870 basehttp 600 16516 "GET /static/css/base.css HTTP/1.1" 404 1795
+INFO 2023-09-27 06:00:07,559 basehttp 600 8796 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22345
+INFO 2023-09-27 06:00:07,593 basehttp 600 8796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 06:00:21,408 basehttp 600 8796 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-27 06:00:21,433 basehttp 600 8796 "GET /admin/auth/user/ HTTP/1.1" 200 11920
+INFO 2023-09-27 06:00:21,468 basehttp 600 8796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 06:00:32,344 basehttp 600 8796 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:00:34,655 basehttp 600 8796 "GET /account/login/ HTTP/1.1" 200 792
+INFO 2023-09-27 06:00:52,245 basehttp 600 8796 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:01:17,135 basehttp 600 8796 "GET /account/login/ HTTP/1.1" 200 800
+INFO 2023-09-27 06:01:17,159 basehttp 600 8796 "GET /static/account/css/base.css HTTP/1.1" 200 4787
+INFO 2023-09-27 06:02:16,468 basehttp 600 8796 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:02:25,150 basehttp 600 8796 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22366
+INFO 2023-09-27 06:02:25,188 basehttp 600 8796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 06:02:35,011 basehttp 600 8796 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-27 06:02:35,037 basehttp 600 8796 "GET /admin/auth/user/ HTTP/1.1" 200 11936
+INFO 2023-09-27 06:02:35,073 basehttp 600 8796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 06:02:38,843 basehttp 600 8796 "GET /account/login/ HTTP/1.1" 200 800
+INFO 2023-09-27 06:02:42,608 basehttp 600 8796 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:02:44,602 basehttp 600 8796 "GET /account/login/ HTTP/1.1" 200 800
+INFO 2023-09-27 06:02:45,410 basehttp 600 8796 "GET /account/login/ HTTP/1.1" 200 800
+INFO 2023-09-27 06:02:45,435 basehttp 600 8796 "GET /static/account/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-27 06:02:50,592 basehttp 600 8796 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:02:51,890 basehttp 600 8796 "GET /account/login/ HTTP/1.1" 200 800
+INFO 2023-09-27 06:03:00,322 basehttp 600 8796 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:03:10,026 basehttp 600 8796 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:03:15,064 autoreload 3856 16556 Watching for file changes with StatReloader
+INFO 2023-09-27 06:03:20,820 basehttp 3856 19128 "GET /account/login/ HTTP/1.1" 200 800
+INFO 2023-09-27 06:03:24,567 basehttp 3856 19128 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 06:03:26,499 basehttp 3856 19128 "GET /account/login/ HTTP/1.1" 200 800
+INFO 2023-09-27 10:44:19,489 autoreload 17224 4308 Watching for file changes with StatReloader
+INFO 2023-09-27 10:44:25,101 views 17224 16432 Index page accessed
+INFO 2023-09-27 10:44:25,122 basehttp 17224 16432 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 10:44:25,127 views 17224 18860 Index page accessed
+INFO 2023-09-27 10:44:25,131 basehttp 17224 18860 "GET / HTTP/1.1" 200 9774
+WARNING 2023-09-27 10:44:25,434 log 17224 18860 Not Found: /favicon.ico
+WARNING 2023-09-27 10:44:25,435 basehttp 17224 18860 "GET /favicon.ico HTTP/1.1" 404 3498
+INFO 2023-09-27 10:44:27,994 views 17224 16084 Index page accessed
+INFO 2023-09-27 10:44:27,997 basehttp 17224 16084 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 10:44:31,614 basehttp 17224 16084 "GET /account/login/ HTTP/1.1" 200 810
+INFO 2023-09-27 10:44:31,655 basehttp 17224 16084 "GET /static/account/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:44:43,566 basehttp 17224 16084 "POST /account/login/ HTTP/1.1" 200 13
+INFO 2023-09-27 10:45:03,362 basehttp 17224 16084 "GET /account/login/ HTTP/1.1" 200 810
+INFO 2023-09-27 10:46:16,204 autoreload 17224 4308 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 10:46:16,737 autoreload 12204 10112 Watching for file changes with StatReloader
+INFO 2023-09-27 10:48:07,179 autoreload 12204 10112 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 10:48:07,678 autoreload 19148 6416 Watching for file changes with StatReloader
+INFO 2023-09-27 10:48:14,320 autoreload 19148 6416 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 10:48:14,803 autoreload 17596 3048 Watching for file changes with StatReloader
+INFO 2023-09-27 10:49:14,848 views 17596 412 Index page accessed
+INFO 2023-09-27 10:49:14,860 basehttp 17596 412 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 10:49:18,542 basehttp 17596 412 "GET /account/login/ HTTP/1.1" 200 821
+INFO 2023-09-27 10:49:28,184 basehttp 17596 412 "POST /account/login/ HTTP/1.1" 200 26
+INFO 2023-09-27 10:49:35,708 views 17596 412 Index page accessed
+INFO 2023-09-27 10:49:35,711 basehttp 17596 412 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 10:49:54,661 basehttp 17596 412 "GET /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2023-09-27 10:49:54,694 basehttp 17596 412 "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 3984
+INFO 2023-09-27 10:49:54,738 basehttp 17596 412 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:49:54,749 basehttp 17596 12952 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:49:54,749 basehttp 17596 412 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:49:54,751 basehttp 17596 11048 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:49:54,753 basehttp 17596 15684 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:49:54,753 basehttp 17596 11048 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:49:54,755 basehttp 17596 11048 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,642 basehttp 17596 11048 "POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302 0
+INFO 2023-09-27 10:50:03,680 basehttp 17596 11048 "GET /admin/auth/user/ HTTP/1.1" 200 11708
+INFO 2023-09-27 10:50:03,711 basehttp 17596 11048 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,715 basehttp 17596 412 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,717 basehttp 17596 12952 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,717 basehttp 17596 11048 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,717 basehttp 17596 8072 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,720 basehttp 17596 412 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,720 basehttp 17596 8152 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,722 basehttp 17596 12952 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,722 basehttp 17596 11048 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,725 basehttp 17596 15684 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 10:50:03,728 basehttp 17596 15684 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,731 basehttp 17596 15684 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,744 basehttp 17596 15684 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,744 basehttp 17596 11048 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,751 basehttp 17596 15684 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,751 basehttp 17596 11048 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:03,752 basehttp 17596 12952 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,388 basehttp 17596 12952 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22434
+INFO 2023-09-27 10:50:06,420 basehttp 17596 12952 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,426 basehttp 17596 8152 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,426 basehttp 17596 11048 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,428 basehttp 17596 8072 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,428 basehttp 17596 15684 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,428 basehttp 17596 412 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,431 basehttp 17596 12952 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 10:50:06,434 basehttp 17596 12952 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,436 basehttp 17596 12952 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,473 basehttp 17596 12952 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,473 basehttp 17596 15684 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:06,474 basehttp 17596 412 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2023-09-27 10:50:21,228 basehttp 17596 412 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-27 10:50:21,244 basehttp 17596 412 "GET /admin/auth/user/ HTTP/1.1" 200 11920
+INFO 2023-09-27 10:50:21,286 basehttp 17596 412 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 10:50:34,908 views 17596 412 Index page accessed
+INFO 2023-09-27 10:50:34,911 basehttp 17596 412 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 10:53:37,889 autoreload 17596 3048 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 10:53:38,476 autoreload 15304 15956 Watching for file changes with StatReloader
+INFO 2023-09-27 10:59:46,343 autoreload 15304 15956 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 10:59:46,830 autoreload 8152 12952 Watching for file changes with StatReloader
+INFO 2023-09-27 11:00:12,989 autoreload 8152 12952 E:\pythonProject\djangoGB\djangoGB\settings.py changed, reloading.
+INFO 2023-09-27 11:00:13,466 autoreload 12956 15104 Watching for file changes with StatReloader
+INFO 2023-09-27 11:02:49,637 autoreload 12956 15104 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 11:02:50,142 autoreload 13168 7124 Watching for file changes with StatReloader
+INFO 2023-09-27 11:02:50,308 views 13168 10880 Index page accessed
+INFO 2023-09-27 11:02:50,320 basehttp 13168 10880 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 11:02:56,765 basehttp 13168 10880 "GET /account/login/ HTTP/1.1" 200 1391
+INFO 2023-09-27 11:02:59,124 basehttp 13168 10880 "GET /account/logout/ HTTP/1.1" 200 3561
+INFO 2023-09-27 11:03:01,094 basehttp 13168 10880 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-27 11:03:01,104 basehttp 13168 10880 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-09-27 11:03:08,956 log 13168 10880 Not Found: /login
+WARNING 2023-09-27 11:03:08,957 basehttp 13168 10880 "GET /login HTTP/1.1" 404 3480
+INFO 2023-09-27 11:03:14,796 basehttp 13168 10880 "GET /account/login/ HTTP/1.1" 200 1160
+INFO 2023-09-27 11:03:16,763 basehttp 13168 10880 "GET /account/login/ HTTP/1.1" 200 1160
+INFO 2023-09-27 11:03:23,904 basehttp 13168 10880 "POST /account/login/ HTTP/1.1" 302 0
+INFO 2023-09-27 11:03:23,911 basehttp 13168 10880 "GET /account/ HTTP/1.1" 200 639
+INFO 2023-09-27 11:03:29,241 basehttp 13168 10880 "GET /account/ HTTP/1.1" 200 639
+INFO 2023-09-27 11:03:37,419 views 13168 10880 Index page accessed
+INFO 2023-09-27 11:03:37,421 basehttp 13168 10880 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 11:04:54,308 autoreload 13168 7124 E:\pythonProject\djangoGB\djangoGB\settings.py changed, reloading.
+INFO 2023-09-27 11:04:54,822 autoreload 11940 14304 Watching for file changes with StatReloader
+INFO 2023-09-27 11:04:55,918 views 11940 4008 Index page accessed
+INFO 2023-09-27 11:04:55,928 basehttp 11940 4008 "GET / HTTP/1.1" 200 9774
+INFO 2023-09-27 11:05:00,679 basehttp 11940 4008 "GET /account/login/ HTTP/1.1" 200 1390
+INFO 2023-09-27 11:05:37,290 basehttp 11940 4008 "GET /account/logout/ HTTP/1.1" 200 459
+INFO 2023-09-27 11:05:39,849 basehttp 11940 4008 "GET /account/login/ HTTP/1.1" 200 1160
+INFO 2023-09-27 11:05:41,736 basehttp 11940 4008 "GET /account/login/ HTTP/1.1" 200 1160
+INFO 2023-09-27 11:05:47,370 basehttp 11940 4008 "POST /account/login/ HTTP/1.1" 302 0
+INFO 2023-09-27 11:05:47,382 basehttp 11940 4008 "GET /account/ HTTP/1.1" 200 639
+INFO 2023-09-27 11:05:54,368 basehttp 11940 4008 "GET /account/ HTTP/1.1" 200 639
+INFO 2023-09-27 11:05:57,315 basehttp 11940 4008 "GET /account/login/ HTTP/1.1" 200 1390
+INFO 2023-09-27 11:06:03,626 basehttp 11940 4008 "POST /account/login/ HTTP/1.1" 302 0
+INFO 2023-09-27 11:06:03,632 basehttp 11940 4008 "GET /account/ HTTP/1.1" 200 639
+INFO 2023-09-27 11:06:06,519 basehttp 11940 4008 "GET /account/ HTTP/1.1" 200 639
+INFO 2023-09-27 11:06:24,033 basehttp 11940 4008 "GET /account/ HTTP/1.1" 200 639
+INFO 2023-09-27 11:06:29,852 basehttp 11940 4008 "GET /account/logout/ HTTP/1.1" 200 459
+INFO 2023-09-27 11:06:31,789 basehttp 11940 4008 "GET /account/login/ HTTP/1.1" 200 1160
