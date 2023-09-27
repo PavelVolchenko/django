@@ -954,3 +954,11 @@ INFO 2023-09-27 03:51:14,253 autoreload 14124 1572 E:\pythonProject\djangoGB\sto
 INFO 2023-09-27 03:51:14,726 autoreload 4820 1388 Watching for file changes with StatReloader
 INFO 2023-09-27 03:51:14,924 views 4820 11292 Index page accessed
 INFO 2023-09-27 03:51:14,936 basehttp 4820 11292 "GET / HTTP/1.1" 200 9762
+INFO 2023-09-27 04:04:14,901 autoreload 9656 18780 Watching for file changes with StatReloader
+INFO 2023-09-27 04:04:16,271 views 9656 17184 Index page accessed
+INFO 2023-09-27 04:04:16,290 basehttp 9656 17184 "GET / HTTP/1.1" 200 9780
+INFO 2023-09-27 04:04:16,345 basehttp 9656 17184 "GET /static/store/image/plate-640x480.jpg HTTP/1.1" 200 33632
+INFO 2023-09-27 04:04:18,062 views 9656 17184 Index page accessed
+INFO 2023-09-27 04:04:18,065 basehttp 9656 17184 "GET / HTTP/1.1" 200 9780
+DEBUG 2023-09-27 04:04:18,737 views 9656 17184 About page accessed
+INFO 2023-09-27 04:04:18,739 basehttp 9656 17184 "GET /about/ HTTP/1.1" 200 2990
