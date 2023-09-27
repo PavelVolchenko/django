@@ -33,7 +33,7 @@ def year_post(request, year):
     text = ""
     return HttpResponse(f"Post from {year}<br>{text}")
 
-def  post_detail(request, year, month, slug):
+def post_detail(request, year, month, slug):
     post = {
         "year": year,
         "month": month,

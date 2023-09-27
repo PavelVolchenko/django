@@ -1254,3 +1254,1904 @@ INFO 2023-09-27 11:06:06,519 basehttp 11940 4008 "GET /account/ HTTP/1.1" 200 63
 INFO 2023-09-27 11:06:24,033 basehttp 11940 4008 "GET /account/ HTTP/1.1" 200 639
 INFO 2023-09-27 11:06:29,852 basehttp 11940 4008 "GET /account/logout/ HTTP/1.1" 200 459
 INFO 2023-09-27 11:06:31,789 basehttp 11940 4008 "GET /account/login/ HTTP/1.1" 200 1160
+INFO 2023-09-27 15:04:43,402 autoreload 15268 3964 Watching for file changes with StatReloader
+INFO 2023-09-27 15:04:44,566 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:04:44,580 basehttp 15268 17880 "GET / HTTP/1.1" 200 13033
+WARNING 2023-09-27 15:04:44,654 log 15268 17880 Not Found: /store/static/store/image/plate-640x480.jpg
+WARNING 2023-09-27 15:04:44,655 basehttp 15268 17880 "GET /store/static/store/image/plate-640x480.jpg HTTP/1.1" 404 3591
+INFO 2023-09-27 15:04:50,762 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:04:50,765 basehttp 15268 17880 "GET / HTTP/1.1" 200 13033
+WARNING 2023-09-27 15:04:50,796 log 15268 17880 Not Found: /store/static/store/image/plate-640x480.jpg
+WARNING 2023-09-27 15:04:50,796 basehttp 15268 17880 "GET /store/static/store/image/plate-640x480.jpg HTTP/1.1" 404 3591
+INFO 2023-09-27 15:04:51,481 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:04:51,484 basehttp 15268 17880 "GET / HTTP/1.1" 200 13033
+WARNING 2023-09-27 15:04:51,513 log 15268 17880 Not Found: /store/static/store/image/plate-640x480.jpg
+WARNING 2023-09-27 15:04:51,513 basehttp 15268 17880 "GET /store/static/store/image/plate-640x480.jpg HTTP/1.1" 404 3591
+INFO 2023-09-27 15:05:28,585 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:05:28,588 basehttp 15268 17880 "GET / HTTP/1.1" 200 13033
+WARNING 2023-09-27 15:05:28,617 log 15268 17880 Not Found: /store/static/store/image/plate-640x480.jpg
+WARNING 2023-09-27 15:05:28,618 basehttp 15268 17880 "GET /store/static/store/image/plate-640x480.jpg HTTP/1.1" 404 3591
+INFO 2023-09-27 15:06:09,792 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:06:09,795 basehttp 15268 17880 "GET / HTTP/1.1" 200 12961
+INFO 2023-09-27 15:06:51,856 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:06:51,859 basehttp 15268 17880 "GET / HTTP/1.1" 200 12919
+WARNING 2023-09-27 15:06:51,891 log 15268 17880 Not Found: /store/image/plate-640x480.jpg
+WARNING 2023-09-27 15:06:51,892 basehttp 15268 17880 "GET /store/image/plate-640x480.jpg HTTP/1.1" 404 3552
+INFO 2023-09-27 15:07:04,522 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:07:04,524 basehttp 15268 17880 "GET / HTTP/1.1" 200 12919
+WARNING 2023-09-27 15:07:04,552 log 15268 17880 Not Found: /store/image/plate-640x480.jpg
+WARNING 2023-09-27 15:07:04,553 basehttp 15268 17880 "GET /store/image/plate-640x480.jpg HTTP/1.1" 404 3552
+INFO 2023-09-27 15:07:05,869 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:07:05,872 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:07:06,667 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:07:06,669 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:07:07,077 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:07:07,079 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:10:03,130 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:10:03,134 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:10:06,691 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:10:06,694 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:10:08,380 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:10:08,383 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+DEBUG 2023-09-27 15:10:09,271 views 15268 17880 About page accessed
+INFO 2023-09-27 15:10:09,272 basehttp 15268 17880 "GET /about/ HTTP/1.1" 200 3405
+DEBUG 2023-09-27 15:10:10,735 views 15268 17880 Info page accessed
+INFO 2023-09-27 15:10:10,736 basehttp 15268 17880 "GET /info/ HTTP/1.1" 200 3385
+DEBUG 2023-09-27 15:10:47,028 views 15268 17880 Info page accessed
+INFO 2023-09-27 15:10:47,030 basehttp 15268 17880 "GET /info/ HTTP/1.1" 200 3385
+DEBUG 2023-09-27 15:11:00,689 views 15268 17880 Info page accessed
+INFO 2023-09-27 15:11:00,690 basehttp 15268 17880 "GET /info/ HTTP/1.1" 200 3385
+DEBUG 2023-09-27 15:11:04,272 views 15268 17880 Info page accessed
+INFO 2023-09-27 15:11:04,273 basehttp 15268 17880 "GET /info/ HTTP/1.1" 200 3385
+DEBUG 2023-09-27 15:11:08,103 views 15268 17880 Info page accessed
+INFO 2023-09-27 15:11:08,106 basehttp 15268 17880 "GET /info/ HTTP/1.1" 200 3406
+INFO 2023-09-27 15:11:10,205 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:11:10,209 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+DEBUG 2023-09-27 15:11:12,856 views 15268 17880 About page accessed
+INFO 2023-09-27 15:11:12,858 basehttp 15268 17880 "GET /about/ HTTP/1.1" 200 3405
+INFO 2023-09-27 15:11:14,095 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:11:14,098 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:12:47,331 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:12:47,333 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:12:48,413 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:12:48,417 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:13:19,224 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:13:19,227 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:13:20,443 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:13:20,446 basehttp 15268 17880 "GET / HTTP/1.1" 200 12967
+INFO 2023-09-27 15:14:16,472 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:14:16,476 basehttp 15268 17880 "GET / HTTP/1.1" 200 12986
+INFO 2023-09-27 15:14:49,051 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:14:49,053 basehttp 15268 17880 "GET / HTTP/1.1" 200 12986
+INFO 2023-09-27 15:14:50,008 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:14:50,013 basehttp 15268 17880 "GET / HTTP/1.1" 200 12977
+INFO 2023-09-27 15:15:41,439 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:15:41,443 basehttp 15268 17880 "GET / HTTP/1.1" 200 12987
+INFO 2023-09-27 15:15:57,169 views 15268 17880 Index page accessed
+INFO 2023-09-27 15:15:57,173 basehttp 15268 17880 "GET / HTTP/1.1" 200 12977
+ERROR 2023-09-27 15:16:44,740 log 15268 17880 Internal Server Error: /account/login/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+ERROR 2023-09-27 15:16:44,742 basehttp 15268 17880 "GET /account/login/ HTTP/1.1" 500 82891
+WARNING 2023-09-27 15:25:08,025 log 15268 17920 Not Found: /account/logged
+WARNING 2023-09-27 15:25:08,026 basehttp 15268 17920 "GET /account/logged HTTP/1.1" 404 3924
+WARNING 2023-09-27 15:25:16,070 log 15268 17920 Not Found: /account/dashboard
+WARNING 2023-09-27 15:25:16,071 basehttp 15268 17920 "GET /account/dashboard HTTP/1.1" 404 3933
+INFO 2023-09-27 15:25:26,765 basehttp 15268 17920 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-27 15:25:26,773 basehttp 15268 12492 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-27 15:25:26,795 basehttp 15268 12492 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-27 15:25:26,831 basehttp 15268 12492 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:26,838 basehttp 15268 8992 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:26,838 basehttp 15268 12492 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:26,838 basehttp 15268 1256 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:26,841 basehttp 15268 18744 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:26,842 basehttp 15268 15232 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:26,842 basehttp 15268 8664 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:32,593 basehttp 15268 8664 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-27 15:25:32,609 basehttp 15268 8664 "GET /admin/ HTTP/1.1" 200 7379
+INFO 2023-09-27 15:25:32,658 basehttp 15268 8664 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-27 15:25:32,664 basehttp 15268 8664 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:32,665 basehttp 15268 15232 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-27 15:25:40,915 basehttp 15268 15232 "GET /admin/auth/user/ HTTP/1.1" 200 11700
+INFO 2023-09-27 15:25:40,949 basehttp 15268 15232 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,950 basehttp 15268 18744 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,950 basehttp 15268 1256 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,951 basehttp 15268 12492 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,951 basehttp 15268 8992 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,952 basehttp 15268 15232 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,954 basehttp 15268 18744 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,955 basehttp 15268 1256 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,956 basehttp 15268 12492 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,960 basehttp 15268 8664 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-27 15:25:40,963 basehttp 15268 8664 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,965 basehttp 15268 8664 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,976 basehttp 15268 8664 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,976 basehttp 15268 12492 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,979 basehttp 15268 12492 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:40,979 basehttp 15268 8664 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2023-09-27 15:25:44,830 views 15268 8664 Index page accessed
+INFO 2023-09-27 15:25:44,834 basehttp 15268 8664 "GET / HTTP/1.1" 200 12977
+INFO 2023-09-27 15:25:48,563 basehttp 15268 8664 "GET /admin/auth/user/ HTTP/1.1" 200 11700
+INFO 2023-09-27 15:26:04,200 basehttp 15268 8664 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-27 15:26:06,624 basehttp 15268 8664 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-27 15:26:06,631 basehttp 15268 8664 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-09-27 15:26:12,261 log 15268 8664 Not Found: /login
+WARNING 2023-09-27 15:26:12,261 basehttp 15268 8664 "GET /login HTTP/1.1" 404 3480
+ERROR 2023-09-27 15:26:20,118 log 15268 8664 Internal Server Error: /account/login/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+ERROR 2023-09-27 15:26:20,119 basehttp 15268 8664 "GET /account/login/ HTTP/1.1" 500 82891
+INFO 2023-09-27 15:31:08,594 basehttp 15268 8664 "GET /account/ HTTP/1.1" 302 0
+ERROR 2023-09-27 15:31:08,624 log 15268 8664 Internal Server Error: /account/login/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+ERROR 2023-09-27 15:31:08,625 basehttp 15268 8664 "GET /account/login/?next=/account/ HTTP/1.1" 500 83259
+INFO 2023-09-27 15:32:45,734 autoreload 15268 3964 E:\pythonProject\djangoGB\djangoGB\urls.py changed, reloading.
+INFO 2023-09-27 15:32:46,242 autoreload 908 3488 Watching for file changes with StatReloader
+WARNING 2023-09-27 15:32:46,434 log 908 5720 Not Found: /account/login/
+WARNING 2023-09-27 15:32:46,434 basehttp 908 5720 "GET /account/login/?next=/account/ HTTP/1.1" 404 3527
+WARNING 2023-09-27 15:32:48,633 log 908 5720 Not Found: /account/login/
+WARNING 2023-09-27 15:32:48,633 basehttp 908 5720 "GET /account/login/ HTTP/1.1" 404 3512
+WARNING 2023-09-27 15:33:04,960 log 908 5720 Not Found: /login
+WARNING 2023-09-27 15:33:04,960 basehttp 908 5720 "GET /login HTTP/1.1" 404 3485
+WARNING 2023-09-27 15:33:08,859 log 908 5720 Not Found: /account/login/
+WARNING 2023-09-27 15:33:08,860 basehttp 908 5720 "GET /account/login/ HTTP/1.1" 404 3512
+INFO 2023-09-27 15:33:54,372 autoreload 908 3488 E:\pythonProject\djangoGB\djangoGB\urls.py changed, reloading.
+INFO 2023-09-27 15:33:54,869 autoreload 18248 12676 Watching for file changes with StatReloader
+INFO 2023-09-27 15:33:55,028 basehttp 18248 13308 "GET /account/login/ HTTP/1.1" 200 4117
+INFO 2023-09-27 15:33:56,635 views 18248 13308 Index page accessed
+INFO 2023-09-27 15:33:56,641 basehttp 18248 13308 "GET / HTTP/1.1" 200 12977
+WARNING 2023-09-27 15:34:01,200 log 18248 13308 Not Found: /login
+WARNING 2023-09-27 15:34:01,200 basehttp 18248 13308 "GET /login HTTP/1.1" 404 3480
+INFO 2023-09-27 15:34:05,028 basehttp 18248 13308 "GET /account/login/ HTTP/1.1" 200 4117
+INFO 2023-09-27 15:34:13,040 basehttp 18248 13308 "POST /account/login/ HTTP/1.1" 302 0
+INFO 2023-09-27 15:34:13,046 basehttp 18248 13308 "GET /account/ HTTP/1.1" 200 3305
+INFO 2023-09-27 15:34:18,759 basehttp 18248 13308 "GET /account/ HTTP/1.1" 200 3305
+INFO 2023-09-27 15:34:19,176 basehttp 18248 13308 "GET /account/ HTTP/1.1" 200 3305
+INFO 2023-09-27 15:34:19,574 basehttp 18248 13308 "GET /account/ HTTP/1.1" 200 3305
+INFO 2023-09-27 15:34:19,885 basehttp 18248 13308 "GET /account/ HTTP/1.1" 200 3305
+INFO 2023-09-27 15:34:20,825 views 18248 13308 Index page accessed
+INFO 2023-09-27 15:34:20,829 basehttp 18248 13308 "GET / HTTP/1.1" 200 12977
+INFO 2023-09-27 16:52:01,761 autoreload 12828 18288 Watching for file changes with StatReloader
+INFO 2023-09-27 16:54:17,697 basehttp 12828 9712 "GET /account/user/add HTTP/1.1" 301 0
+ERROR 2023-09-27 16:54:17,735 log 12828 11756 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view account.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 16:54:17,736 basehttp 12828 11756 "GET /account/user/add/ HTTP/1.1" 500 69265
+INFO 2023-09-27 16:54:50,533 autoreload 12828 18288 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 16:54:51,021 autoreload 524 17364 Watching for file changes with StatReloader
+ERROR 2023-09-27 16:54:51,601 log 524 17456 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view account.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 16:54:51,603 basehttp 524 17456 "GET /account/user/add/ HTTP/1.1" 500 69402
+INFO 2023-09-27 16:55:26,943 autoreload 524 17364 E:\pythonProject\djangoGB\djangoGB\settings.py changed, reloading.
+INFO 2023-09-27 16:55:27,421 autoreload 16456 2876 Watching for file changes with StatReloader
+ERROR 2023-09-27 16:55:27,982 log 16456 17844 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view account.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 16:55:27,983 basehttp 16456 17844 "GET /account/user/add/ HTTP/1.1" 500 69258
+INFO 2023-09-27 16:56:44,184 autoreload 16456 2876 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 16:56:44,683 autoreload 2316 15424 Watching for file changes with StatReloader
+ERROR 2023-09-27 16:56:44,858 log 2316 8536 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view account.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-27 16:56:44,859 basehttp 2316 8536 "GET /account/user/add/ HTTP/1.1" 500 69258
+INFO 2023-09-27 16:57:00,761 autoreload 2316 15424 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 16:57:01,254 autoreload 12104 15544 Watching for file changes with StatReloader
+ERROR 2023-09-27 16:57:01,615 log 12104 3388 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 22, in user_form
+    return render(request, "user_form.html", {"form": form})
+UnboundLocalError: local variable 'form' referenced before assignment
+ERROR 2023-09-27 16:57:01,617 basehttp 12104 3388 "GET /account/user/add/ HTTP/1.1" 500 68320
+ERROR 2023-09-27 16:57:39,030 log 12104 3388 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 22, in user_form
+    return render(request, "user_form.html", {"form": form})
+UnboundLocalError: local variable 'form' referenced before assignment
+ERROR 2023-09-27 16:57:39,031 basehttp 12104 3388 "GET /account/user/add/ HTTP/1.1" 500 68312
+INFO 2023-09-27 16:57:39,168 autoreload 12104 15544 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 16:57:39,665 autoreload 10124 12972 Watching for file changes with StatReloader
+ERROR 2023-09-27 16:57:40,643 log 10124 11536 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 22, in user_form
+    return render(request, "user_form.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_form.html
+ERROR 2023-09-27 16:57:40,646 basehttp 10124 11536 "GET /account/user/add/ HTTP/1.1" 500 83285
+ERROR 2023-09-27 16:57:41,568 log 10124 11536 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 22, in user_form
+    return render(request, "user_form.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_form.html
+ERROR 2023-09-27 16:57:41,569 basehttp 10124 11536 "GET /account/user/add/ HTTP/1.1" 500 83285
+ERROR 2023-09-27 16:58:12,074 log 10124 11536 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 22, in user_form
+    return render(request, "account/user_form.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_form.html
+ERROR 2023-09-27 16:58:12,076 basehttp 10124 11536 "GET /account/user/add/ HTTP/1.1" 500 83301
+INFO 2023-09-27 16:58:12,445 autoreload 10124 12972 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 16:58:12,908 autoreload 11468 2944 Watching for file changes with StatReloader
+INFO 2023-09-27 16:58:13,140 basehttp 11468 19076 "GET /account/user/add/ HTTP/1.1" 200 3657
+INFO 2023-09-27 16:59:56,786 autoreload 11468 2944 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 16:59:57,276 autoreload 18936 3432 Watching for file changes with StatReloader
+INFO 2023-09-27 17:01:01,369 basehttp 18936 19288 "GET /account/user/add/ HTTP/1.1" 200 3895
+INFO 2023-09-27 17:01:47,278 basehttp 18936 19288 "GET /account/user/add/ HTTP/1.1" 200 3967
+INFO 2023-09-27 17:02:22,658 basehttp 18936 19288 "GET /account/user/add/ HTTP/1.1" 200 4111
+INFO 2023-09-27 17:03:25,271 basehttp 18936 19288 "POST /account/user/add/ HTTP/1.1" 200 4145
+INFO 2023-09-27 17:10:34,972 autoreload 18936 3432 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 17:10:35,480 autoreload 6964 14916 Watching for file changes with StatReloader
+INFO 2023-09-27 17:29:36,500 basehttp 6964 9404 "POST /account/user/add/ HTTP/1.1" 200 4107
+INFO 2023-09-27 17:29:42,608 basehttp 6964 9404 "POST /account/user/add/ HTTP/1.1" 200 4100
+INFO 2023-09-27 17:29:47,800 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:29:47,806 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:30:03,194 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:30:03,196 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:30:12,165 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:30:12,169 basehttp 6964 9404 "GET / HTTP/1.1" 200 12990
+INFO 2023-09-27 17:30:18,914 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:30:18,917 basehttp 6964 9404 "GET / HTTP/1.1" 200 12983
+INFO 2023-09-27 17:30:40,737 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:30:40,740 basehttp 6964 9404 "GET / HTTP/1.1" 200 12983
+INFO 2023-09-27 17:30:42,822 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:30:42,824 basehttp 6964 9404 "GET / HTTP/1.1" 200 12983
+INFO 2023-09-27 17:30:49,017 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:30:49,020 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:31:49,235 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:31:49,239 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:31:50,129 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:31:50,132 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:31:53,382 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:31:53,385 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:31:54,831 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:31:54,835 basehttp 6964 9404 "GET / HTTP/1.1" 200 13004
+INFO 2023-09-27 17:32:00,402 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:00,406 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:00,944 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:00,946 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:01,683 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:01,685 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:02,136 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:02,139 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:10,679 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:10,681 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:11,268 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:11,271 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:15,325 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:15,329 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:16,171 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:16,174 basehttp 6964 9404 "GET / HTTP/1.1" 200 12992
+INFO 2023-09-27 17:32:26,536 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:26,539 basehttp 6964 9404 "GET / HTTP/1.1" 200 13034
+INFO 2023-09-27 17:32:32,440 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:32,443 basehttp 6964 9404 "GET / HTTP/1.1" 200 12986
+INFO 2023-09-27 17:32:33,012 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:33,015 basehttp 6964 9404 "GET / HTTP/1.1" 200 12986
+INFO 2023-09-27 17:32:33,391 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:33,394 basehttp 6964 9404 "GET / HTTP/1.1" 200 12986
+INFO 2023-09-27 17:32:38,168 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:38,171 basehttp 6964 9404 "GET / HTTP/1.1" 200 12944
+INFO 2023-09-27 17:32:43,487 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:43,489 basehttp 6964 9404 "GET / HTTP/1.1" 200 12944
+INFO 2023-09-27 17:32:44,200 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:44,203 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:32:55,316 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:32:55,321 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:33:13,125 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:33:13,128 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:33:13,861 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:33:13,864 basehttp 6964 9404 "GET / HTTP/1.1" 200 13142
+INFO 2023-09-27 17:33:32,199 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:33:32,204 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:33:51,073 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:33:51,076 basehttp 6964 9404 "GET / HTTP/1.1" 200 13082
+INFO 2023-09-27 17:33:55,460 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:33:55,462 basehttp 6964 9404 "GET / HTTP/1.1" 200 13082
+INFO 2023-09-27 17:33:56,325 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:33:56,329 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:34:17,431 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:34:17,435 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:34:30,452 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:34:30,454 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:34:31,042 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:34:31,046 basehttp 6964 9404 "GET / HTTP/1.1" 200 13196
+INFO 2023-09-27 17:34:48,341 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:34:48,345 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:01,163 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:01,166 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:01,659 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:01,662 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:02,069 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:02,073 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:02,885 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:02,888 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:07,480 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:07,483 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:10,825 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:10,827 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:11,628 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:11,632 basehttp 6964 9404 "GET / HTTP/1.1" 200 13196
+INFO 2023-09-27 17:35:12,158 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:12,161 basehttp 6964 9404 "GET / HTTP/1.1" 200 13196
+INFO 2023-09-27 17:35:17,558 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:17,562 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:18,103 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:18,105 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:18,740 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:18,744 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:19,156 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:19,159 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:19,366 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:19,369 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:19,624 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:19,626 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:28,086 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:28,090 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:34,014 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:34,016 basehttp 6964 9404 "GET / HTTP/1.1" 200 13304
+INFO 2023-09-27 17:35:34,534 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:34,537 basehttp 6964 9404 "GET / HTTP/1.1" 200 13196
+INFO 2023-09-27 17:35:53,777 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:53,780 basehttp 6964 9404 "GET / HTTP/1.1" 200 13196
+INFO 2023-09-27 17:35:54,458 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:35:54,461 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:36:06,580 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:06,582 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:36:07,279 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:07,282 basehttp 6964 9404 "GET / HTTP/1.1" 200 13004
+INFO 2023-09-27 17:36:18,385 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:18,388 basehttp 6964 9404 "GET / HTTP/1.1" 200 12926
+INFO 2023-09-27 17:36:22,175 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:22,178 basehttp 6964 9404 "GET / HTTP/1.1" 200 12926
+INFO 2023-09-27 17:36:22,590 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:22,593 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:36:37,373 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:37,376 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:36:37,832 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:37,834 basehttp 6964 9404 "GET / HTTP/1.1" 200 13088
+INFO 2023-09-27 17:36:38,197 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:38,201 basehttp 6964 9404 "GET / HTTP/1.1" 200 13040
+INFO 2023-09-27 17:36:44,374 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:44,378 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:36:44,902 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:44,905 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:36:45,260 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:45,262 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:36:45,610 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:45,613 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:36:46,309 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:36:46,312 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:37:24,005 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:37:24,008 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:37:30,917 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:37:30,920 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:37:31,631 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:37:31,634 basehttp 6964 9404 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:37:58,413 views 6964 9404 Index page accessed
+INFO 2023-09-27 17:37:58,417 basehttp 6964 9404 "GET / HTTP/1.1" 200 12977
+INFO 2023-09-27 17:54:59,261 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:54:59,264 basehttp 6964 1644 "GET / HTTP/1.1" 200 12977
+INFO 2023-09-27 17:55:00,349 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:55:00,352 basehttp 6964 1644 "GET / HTTP/1.1" 200 12977
+INFO 2023-09-27 17:58:03,839 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:58:03,843 basehttp 6964 1644 "GET / HTTP/1.1" 200 12977
+INFO 2023-09-27 17:58:04,293 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:58:04,297 basehttp 6964 1644 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 17:58:18,860 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:58:18,864 basehttp 6964 1644 "GET / HTTP/1.1" 200 12983
+INFO 2023-09-27 17:58:19,443 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:58:19,446 basehttp 6964 1644 "GET / HTTP/1.1" 200 12983
+INFO 2023-09-27 17:58:28,849 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:58:28,852 basehttp 6964 1644 "GET / HTTP/1.1" 200 12983
+INFO 2023-09-27 17:59:33,420 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:59:33,424 basehttp 6964 1644 "GET / HTTP/1.1" 200 12982
+INFO 2023-09-27 17:59:33,605 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:59:33,608 basehttp 6964 1644 "GET / HTTP/1.1" 200 12982
+INFO 2023-09-27 17:59:43,013 views 6964 1644 Index page accessed
+INFO 2023-09-27 17:59:43,018 basehttp 6964 1644 "GET / HTTP/1.1" 200 12980
+INFO 2023-09-27 18:00:07,722 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:07,726 basehttp 6964 1644 "GET / HTTP/1.1" 200 12995
+INFO 2023-09-27 18:00:12,468 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:12,472 basehttp 6964 1644 "GET / HTTP/1.1" 200 12992
+INFO 2023-09-27 18:00:14,250 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:14,253 basehttp 6964 1644 "GET / HTTP/1.1" 200 12992
+INFO 2023-09-27 18:00:14,665 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:14,669 basehttp 6964 1644 "GET / HTTP/1.1" 200 12989
+INFO 2023-09-27 18:00:20,967 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:20,971 basehttp 6964 1644 "GET / HTTP/1.1" 200 12992
+INFO 2023-09-27 18:00:24,171 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:24,175 basehttp 6964 1644 "GET / HTTP/1.1" 200 12992
+INFO 2023-09-27 18:00:38,307 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:38,309 basehttp 6964 1644 "GET / HTTP/1.1" 200 12992
+INFO 2023-09-27 18:00:38,766 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:00:38,770 basehttp 6964 1644 "GET / HTTP/1.1" 200 12989
+INFO 2023-09-27 18:01:24,583 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:01:24,587 basehttp 6964 1644 "GET / HTTP/1.1" 200 12998
+INFO 2023-09-27 18:01:24,950 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:01:24,952 basehttp 6964 1644 "GET / HTTP/1.1" 200 12998
+INFO 2023-09-27 18:01:31,029 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:01:31,033 basehttp 6964 1644 "GET / HTTP/1.1" 200 12989
+DEBUG 2023-09-27 18:01:33,084 views 6964 1644 About page accessed
+INFO 2023-09-27 18:01:33,086 basehttp 6964 1644 "GET /about/ HTTP/1.1" 200 3439
+DEBUG 2023-09-27 18:01:34,177 views 6964 1644 Info page accessed
+INFO 2023-09-27 18:01:34,179 basehttp 6964 1644 "GET /info/ HTTP/1.1" 200 3440
+INFO 2023-09-27 18:01:35,031 views 6964 1644 Index page accessed
+INFO 2023-09-27 18:01:35,033 basehttp 6964 1644 "GET / HTTP/1.1" 200 12989
+INFO 2023-09-27 18:02:46,966 autoreload 6964 14916 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:02:47,450 autoreload 17856 9724 Watching for file changes with StatReloader
+INFO 2023-09-27 18:04:18,703 autoreload 17856 9724 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:04:19,214 autoreload 18304 12428 Watching for file changes with StatReloader
+INFO 2023-09-27 18:04:56,073 autoreload 18304 12428 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:04:56,575 autoreload 13704 4172 Watching for file changes with StatReloader
+INFO 2023-09-27 18:05:06,148 autoreload 13704 4172 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:05:06,628 autoreload 10408 11732 Watching for file changes with StatReloader
+INFO 2023-09-27 18:05:06,871 views 10408 18956 Index page accessed
+INFO 2023-09-27 18:05:06,881 basehttp 10408 18956 "GET / HTTP/1.1" 200 12989
+INFO 2023-09-27 18:05:24,862 autoreload 10408 11732 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 18:05:25,357 autoreload 11212 10936 Watching for file changes with StatReloader
+INFO 2023-09-27 18:08:44,204 autoreload 11212 10936 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 18:08:44,670 autoreload 18520 992 Watching for file changes with StatReloader
+INFO 2023-09-27 18:09:11,183 autoreload 18520 992 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 18:09:11,679 autoreload 13952 16460 Watching for file changes with StatReloader
+INFO 2023-09-27 18:09:11,999 views 13952 2920 Index page accessed
+INFO 2023-09-27 18:09:12,008 basehttp 13952 2920 "GET / HTTP/1.1" 200 12989
+INFO 2023-09-27 18:10:37,713 autoreload 13952 16460 E:\pythonProject\djangoGB\djangoGB\settings.py changed, reloading.
+INFO 2023-09-27 18:10:38,207 autoreload 8964 9508 Watching for file changes with StatReloader
+WARNING 2023-09-27 18:10:44,197 log 8964 15472 Not Found: /account/login/
+WARNING 2023-09-27 18:10:44,198 basehttp 8964 15472 "GET /account/login/ HTTP/1.1" 404 3581
+WARNING 2023-09-27 18:11:00,303 log 8964 15472 Not Found: /account/luser/add
+WARNING 2023-09-27 18:11:00,304 basehttp 8964 15472 "GET /account/luser/add HTTP/1.1" 404 3590
+INFO 2023-09-27 18:11:06,193 basehttp 8964 15472 "GET /account/user/add HTTP/1.1" 301 0
+INFO 2023-09-27 18:11:06,210 basehttp 8964 12104 "GET /account/user/add/ HTTP/1.1" 200 4075
+INFO 2023-09-27 18:11:15,218 basehttp 8964 12104 "POST /account/user/add/ HTTP/1.1" 200 4223
+INFO 2023-09-27 18:11:25,838 views 8964 12104 Take username='test', email='test@test.ru'.
+INFO 2023-09-27 18:11:25,840 basehttp 8964 12104 "POST /account/user/add/ HTTP/1.1" 200 4109
+INFO 2023-09-27 18:12:34,469 views 8964 12104 Take username='test', email='test@test.ru'.
+INFO 2023-09-27 18:12:34,471 basehttp 8964 12104 "POST /account/user/add/ HTTP/1.1" 200 4109
+INFO 2023-09-27 18:12:46,924 views 8964 12104 Take username='test', email='test@test.ru'.
+INFO 2023-09-27 18:12:46,929 basehttp 8964 12104 "POST /account/user/add/ HTTP/1.1" 200 4022
+INFO 2023-09-27 18:13:42,737 autoreload 8964 9508 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 18:13:43,218 autoreload 1464 3360 Watching for file changes with StatReloader
+INFO 2023-09-27 18:14:00,087 autoreload 1464 3360 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 18:14:00,564 autoreload 3280 15096 Watching for file changes with StatReloader
+INFO 2023-09-27 18:14:00,649 basehttp 3280 4140 "GET /account/forms HTTP/1.1" 301 0
+INFO 2023-09-27 18:14:00,673 basehttp 3280 15988 "GET /account/forms/ HTTP/1.1" 200 4472
+INFO 2023-09-27 18:14:29,592 views 3280 15988 Index page accessed
+INFO 2023-09-27 18:14:29,595 basehttp 3280 15988 "GET / HTTP/1.1" 200 12989
+INFO 2023-09-27 18:15:00,402 views 3280 15988 Take form.cleaned_data={'username': 'name', 'email': 'name@name.ru', 'is_active': True, 'birthdate': datetime.date(2023, 9, 12), 'sex': 'M'}.
+INFO 2023-09-27 18:15:00,405 basehttp 3280 15988 "POST /account/forms/ HTTP/1.1" 200 4523
+INFO 2023-09-27 18:29:32,196 basehttp 3280 19356 "GET /account/user/add/ HTTP/1.1" 200 3988
+INFO 2023-09-27 18:30:16,533 views 3280 19356 Index page accessed
+INFO 2023-09-27 18:30:16,537 basehttp 3280 19356 "GET / HTTP/1.1" 200 13022
+INFO 2023-09-27 18:30:18,002 basehttp 3280 19356 "GET /account/user/add/ HTTP/1.1" 200 4021
+INFO 2023-09-27 18:30:18,764 views 3280 19356 Index page accessed
+INFO 2023-09-27 18:30:18,767 basehttp 3280 19356 "GET / HTTP/1.1" 200 13022
+INFO 2023-09-27 18:30:19,476 basehttp 3280 19356 "GET /account/forms/ HTTP/1.1" 200 4505
+INFO 2023-09-27 18:30:21,113 views 3280 19356 Index page accessed
+INFO 2023-09-27 18:30:21,115 basehttp 3280 19356 "GET / HTTP/1.1" 200 13022
+INFO 2023-09-27 18:31:26,234 autoreload 3280 15096 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:31:26,743 autoreload 4084 19204 Watching for file changes with StatReloader
+INFO 2023-09-27 18:32:35,532 autoreload 4084 19204 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:32:36,007 autoreload 10788 18240 Watching for file changes with StatReloader
+INFO 2023-09-27 18:38:14,663 autoreload 10788 18240 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:38:15,164 autoreload 7828 13812 Watching for file changes with StatReloader
+INFO 2023-09-27 18:38:16,446 basehttp 7828 6940 "GET /account/forms/ HTTP/1.1" 200 4505
+INFO 2023-09-27 18:38:17,857 views 7828 6940 Index page accessed
+INFO 2023-09-27 18:38:17,860 basehttp 7828 6940 "GET / HTTP/1.1" 200 13022
+INFO 2023-09-27 18:38:18,768 basehttp 7828 6940 "GET /account/forms/ HTTP/1.1" 200 4505
+INFO 2023-09-27 18:39:10,043 autoreload 7828 13812 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 18:39:10,548 autoreload 10756 13236 Watching for file changes with StatReloader
+INFO 2023-09-27 18:39:10,833 basehttp 10756 924 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:39:57,325 basehttp 10756 924 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:40:48,891 basehttp 10756 924 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:40:49,022 autoreload 10756 13236 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:40:49,490 autoreload 2872 6088 Watching for file changes with StatReloader
+INFO 2023-09-27 18:40:50,441 basehttp 2872 17680 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:40:58,193 autoreload 2872 6088 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:40:58,679 autoreload 10928 18384 Watching for file changes with StatReloader
+INFO 2023-09-27 18:40:59,171 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:41:35,513 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:41:35,934 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4815
+INFO 2023-09-27 18:41:41,448 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:43:10,134 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:43:10,536 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4861
+INFO 2023-09-27 18:43:11,291 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:43:35,317 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:43:35,888 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:43:40,543 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:43:41,007 basehttp 10928 15600 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:44:34,264 autoreload 10928 18384 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:44:34,748 autoreload 16956 1324 Watching for file changes with StatReloader
+INFO 2023-09-27 18:44:35,001 basehttp 16956 1928 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:44:36,297 basehttp 16956 1928 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:45:30,527 autoreload 16956 1324 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:45:31,010 autoreload 10236 2288 Watching for file changes with StatReloader
+INFO 2023-09-27 18:45:31,117 basehttp 10236 8100 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:45:47,078 autoreload 10236 2288 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:45:47,570 autoreload 13624 6624 Watching for file changes with StatReloader
+INFO 2023-09-27 18:45:54,099 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 5095
+INFO 2023-09-27 18:46:07,708 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:47:01,616 basehttp 13624 2396 "GET /account/forms/ HTTP/1.1" 200 4888
+WARNING 2023-09-27 18:47:01,971 log 13624 2396 Not Found: /favicon.ico
+WARNING 2023-09-27 18:47:01,971 basehttp 13624 2396 "GET /favicon.ico HTTP/1.1" 404 3498
+INFO 2023-09-27 18:47:09,419 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4888
+INFO 2023-09-27 18:47:20,170 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4884
+INFO 2023-09-27 18:47:21,010 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4884
+INFO 2023-09-27 18:47:26,747 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4884
+INFO 2023-09-27 18:47:27,369 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4884
+INFO 2023-09-27 18:47:31,220 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4889
+INFO 2023-09-27 18:47:37,861 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4885
+INFO 2023-09-27 18:47:43,176 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4889
+INFO 2023-09-27 18:47:48,268 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4889
+INFO 2023-09-27 18:47:48,927 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4889
+INFO 2023-09-27 18:48:09,389 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4811
+INFO 2023-09-27 18:48:10,340 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4811
+INFO 2023-09-27 18:48:15,661 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4889
+INFO 2023-09-27 18:48:25,903 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4889
+INFO 2023-09-27 18:48:26,536 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4891
+INFO 2023-09-27 18:48:31,104 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4891
+INFO 2023-09-27 18:48:31,290 basehttp 13624 3324 "GET /account/forms/ HTTP/1.1" 200 4930
+INFO 2023-09-27 18:49:02,518 autoreload 13624 6624 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:49:03,034 autoreload 11076 4560 Watching for file changes with StatReloader
+INFO 2023-09-27 18:49:23,046 autoreload 11076 4560 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 18:49:23,512 autoreload 12948 5668 Watching for file changes with StatReloader
+INFO 2023-09-27 18:49:23,630 basehttp 12948 9512 "GET /account/forms/ HTTP/1.1" 200 4930
+INFO 2023-09-27 18:49:24,599 basehttp 12948 9512 "GET /account/forms/ HTTP/1.1" 200 4930
+INFO 2023-09-27 19:00:18,282 basehttp 12948 10036 "GET /account/forms/ HTTP/1.1" 200 4930
+INFO 2023-09-27 19:00:18,722 autoreload 12948 5668 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 19:00:19,209 autoreload 10292 3836 Watching for file changes with StatReloader
+INFO 2023-09-27 19:00:19,812 basehttp 10292 9380 "GET /account/forms/ HTTP/1.1" 200 4914
+INFO 2023-09-27 19:04:37,448 autoreload 10292 3836 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 19:04:37,940 autoreload 16372 4024 Watching for file changes with StatReloader
+INFO 2023-09-27 19:04:38,500 basehttp 16372 10656 "GET /account/forms/ HTTP/1.1" 200 5028
+INFO 2023-09-27 19:05:35,589 basehttp 16372 10656 "GET /account/forms/ HTTP/1.1" 200 5028
+INFO 2023-09-27 19:05:35,698 autoreload 16372 4024 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 19:05:36,177 autoreload 14512 9016 Watching for file changes with StatReloader
+INFO 2023-09-27 19:05:36,323 basehttp 14512 6984 "GET /account/forms/ HTTP/1.1" 200 5010
+INFO 2023-09-27 19:18:33,807 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5010
+INFO 2023-09-27 19:18:34,422 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5010
+INFO 2023-09-27 19:18:40,552 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5010
+INFO 2023-09-27 19:18:41,082 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5010
+INFO 2023-09-27 19:18:53,164 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5011
+INFO 2023-09-27 19:19:13,485 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5011
+INFO 2023-09-27 19:19:25,332 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5011
+INFO 2023-09-27 19:19:25,882 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5011
+INFO 2023-09-27 19:20:32,686 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4853
+INFO 2023-09-27 19:20:41,091 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4850
+INFO 2023-09-27 19:20:53,030 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4850
+INFO 2023-09-27 19:20:53,487 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4003
+INFO 2023-09-27 19:20:59,571 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4040
+INFO 2023-09-27 19:20:59,875 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4040
+INFO 2023-09-27 19:21:23,415 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4040
+INFO 2023-09-27 19:21:23,653 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4082
+INFO 2023-09-27 19:21:27,278 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4082
+INFO 2023-09-27 19:21:27,476 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4082
+INFO 2023-09-27 19:21:28,122 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4875
+INFO 2023-09-27 19:21:36,298 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4875
+INFO 2023-09-27 19:21:36,900 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4875
+INFO 2023-09-27 19:22:09,873 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4878
+INFO 2023-09-27 19:22:10,164 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4878
+INFO 2023-09-27 19:22:57,523 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5201
+INFO 2023-09-27 19:22:58,446 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 5201
+INFO 2023-09-27 19:23:40,427 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4875
+INFO 2023-09-27 19:23:57,486 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4875
+INFO 2023-09-27 19:23:57,723 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 4875
+INFO 2023-09-27 19:23:58,252 basehttp 14512 17480 "GET /account/forms/ HTTP/1.1" 200 14066
+INFO 2023-09-27 19:25:23,464 autoreload 14512 9016 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 19:25:23,945 autoreload 14280 1096 Watching for file changes with StatReloader
+INFO 2023-09-27 19:25:24,064 basehttp 14280 14700 "GET /account/forms/ HTTP/1.1" 200 14213
+INFO 2023-09-27 19:25:57,699 basehttp 14280 14700 "GET /account/forms/ HTTP/1.1" 200 14213
+INFO 2023-09-27 19:25:57,819 autoreload 14280 1096 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 19:25:58,289 autoreload 15508 18220 Watching for file changes with StatReloader
+INFO 2023-09-27 19:25:58,558 basehttp 15508 528 "GET /account/forms/ HTTP/1.1" 200 14192
+INFO 2023-09-27 19:26:07,679 basehttp 15508 528 "GET /account/forms/ HTTP/1.1" 200 14192
+INFO 2023-09-27 19:26:08,047 autoreload 15508 18220 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 19:26:08,532 autoreload 3132 6564 Watching for file changes with StatReloader
+INFO 2023-09-27 19:26:08,892 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14213
+INFO 2023-09-27 19:26:57,861 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14213
+INFO 2023-09-27 19:26:58,538 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:26:59,172 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:26:59,574 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:27:01,485 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:27:24,014 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14525
+INFO 2023-09-27 19:27:27,096 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14525
+INFO 2023-09-27 19:27:38,610 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14525
+INFO 2023-09-27 19:27:39,060 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14441
+INFO 2023-09-27 19:27:40,026 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14441
+INFO 2023-09-27 19:28:05,111 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14465
+INFO 2023-09-27 19:28:05,602 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14465
+INFO 2023-09-27 19:28:06,229 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14465
+INFO 2023-09-27 19:28:07,115 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14465
+INFO 2023-09-27 19:28:07,581 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14465
+INFO 2023-09-27 19:28:12,318 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14459
+INFO 2023-09-27 19:28:12,808 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14459
+INFO 2023-09-27 19:28:13,510 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14459
+INFO 2023-09-27 19:28:17,826 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14435
+INFO 2023-09-27 19:28:18,592 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14435
+INFO 2023-09-27 19:29:06,273 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14435
+INFO 2023-09-27 19:29:06,599 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14435
+INFO 2023-09-27 19:29:07,162 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14513
+INFO 2023-09-27 19:29:07,830 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14513
+INFO 2023-09-27 19:29:11,119 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14477
+INFO 2023-09-27 19:29:11,647 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14477
+INFO 2023-09-27 19:29:11,976 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14477
+INFO 2023-09-27 19:29:21,798 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14477
+INFO 2023-09-27 19:29:22,228 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14477
+INFO 2023-09-27 19:29:22,629 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14459
+INFO 2023-09-27 19:29:27,903 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:29:28,258 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:29:28,735 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:29:29,577 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:29:30,907 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:29:51,285 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14417
+INFO 2023-09-27 19:29:51,716 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14435
+INFO 2023-09-27 19:30:01,370 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14435
+INFO 2023-09-27 19:30:02,739 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 14435
+INFO 2023-09-27 19:30:10,065 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:30:10,656 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:30:11,358 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:30:12,487 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:31:09,782 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:31:10,313 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:31:10,785 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:31:11,619 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13969
+INFO 2023-09-27 19:31:30,527 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13507
+INFO 2023-09-27 19:31:31,143 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 13507
+INFO 2023-09-27 19:31:48,650 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4555
+INFO 2023-09-27 19:31:59,394 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4190
+INFO 2023-09-27 19:32:23,910 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4304
+INFO 2023-09-27 19:32:37,452 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4652
+INFO 2023-09-27 19:32:59,766 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4652
+INFO 2023-09-27 19:33:00,188 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4279
+INFO 2023-09-27 19:33:12,415 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4279
+INFO 2023-09-27 19:33:12,904 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 4290
+INFO 2023-09-27 19:33:27,733 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 5344
+INFO 2023-09-27 19:33:36,663 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 5344
+INFO 2023-09-27 19:33:37,510 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 5118
+INFO 2023-09-27 19:34:01,157 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 5142
+INFO 2023-09-27 19:34:21,970 basehttp 3132 15864 "GET /account/forms/ HTTP/1.1" 200 5172
+INFO 2023-09-27 19:56:58,158 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5171
+INFO 2023-09-27 19:56:58,841 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5171
+INFO 2023-09-27 19:56:59,259 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5171
+INFO 2023-09-27 19:57:09,059 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5171
+INFO 2023-09-27 19:57:09,564 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5165
+INFO 2023-09-27 20:00:33,412 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5165
+INFO 2023-09-27 20:00:33,961 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5214
+INFO 2023-09-27 20:00:34,800 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5214
+INFO 2023-09-27 20:00:36,240 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5214
+INFO 2023-09-27 20:00:37,033 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5214
+INFO 2023-09-27 20:00:51,641 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5220
+INFO 2023-09-27 20:01:32,195 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5262
+INFO 2023-09-27 20:01:39,327 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5262
+INFO 2023-09-27 20:01:39,812 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5238
+INFO 2023-09-27 20:01:49,043 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5268
+INFO 2023-09-27 20:02:04,400 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5268
+INFO 2023-09-27 20:02:04,836 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5268
+INFO 2023-09-27 20:02:17,932 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5268
+INFO 2023-09-27 20:02:27,125 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5268
+INFO 2023-09-27 20:02:27,602 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5238
+INFO 2023-09-27 20:02:45,994 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5238
+INFO 2023-09-27 20:02:57,760 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5238
+INFO 2023-09-27 20:02:58,142 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5028
+INFO 2023-09-27 20:03:12,408 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5028
+INFO 2023-09-27 20:03:13,176 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4944
+INFO 2023-09-27 20:03:25,355 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4940
+INFO 2023-09-27 20:03:31,704 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4898
+INFO 2023-09-27 20:03:42,072 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4826
+INFO 2023-09-27 20:03:42,561 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4826
+INFO 2023-09-27 20:03:42,990 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4826
+INFO 2023-09-27 20:03:43,410 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4826
+INFO 2023-09-27 20:03:43,917 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4826
+INFO 2023-09-27 20:04:28,345 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4826
+INFO 2023-09-27 20:04:28,681 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 4826
+ERROR 2023-09-27 20:04:29,188 log 3132 8880 Internal Server Error: /account/forms/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 34, in many_fields_form
+    return render(request, "account/many_fields_form.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{ f.label' from '{{ f.label'
+ERROR 2023-09-27 20:04:29,192 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 500 187885
+INFO 2023-09-27 20:06:56,524 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5120
+INFO 2023-09-27 20:06:57,999 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5120
+INFO 2023-09-27 20:06:58,699 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5120
+INFO 2023-09-27 20:07:24,456 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5414
+INFO 2023-09-27 20:07:39,122 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:08:08,626 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5433
+INFO 2023-09-27 20:08:09,781 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5433
+INFO 2023-09-27 20:08:31,550 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5440
+INFO 2023-09-27 20:08:32,036 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5440
+INFO 2023-09-27 20:08:32,507 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5440
+INFO 2023-09-27 20:08:39,798 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:08:40,432 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:09:06,597 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:09:07,596 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:09:11,939 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:09:12,369 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5123
+INFO 2023-09-27 20:09:19,086 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5123
+INFO 2023-09-27 20:09:19,481 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:10:19,746 basehttp 3132 8880 "GET /account/forms/ HTTP/1.1" 200 5417
+INFO 2023-09-27 20:10:19,881 autoreload 3132 6564 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:10:20,388 autoreload 10764 15248 Watching for file changes with StatReloader
+INFO 2023-09-27 20:10:20,561 basehttp 10764 18628 "GET /account/forms/ HTTP/1.1" 200 5413
+INFO 2023-09-27 20:11:28,797 views 10764 18628 Take form.cleaned_data={'name': 'testuser', 'email': 'user@user.ru', 'is_active': False, 'birthdate': datetime.date(2023, 9, 27), 'sex': 'M', 'message': 'TEXT text'}.
+INFO 2023-09-27 20:11:28,800 basehttp 10764 18628 "POST /account/forms/ HTTP/1.1" 200 5468
+INFO 2023-09-27 20:16:33,706 autoreload 10764 15248 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:16:34,184 autoreload 1432 10944 Watching for file changes with StatReloader
+INFO 2023-09-27 20:16:50,286 autoreload 1432 10944 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:16:50,766 autoreload 11304 16644 Watching for file changes with StatReloader
+INFO 2023-09-27 20:18:32,040 autoreload 11304 16644 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:18:32,542 autoreload 3012 7452 Watching for file changes with StatReloader
+INFO 2023-09-27 20:40:42,987 autoreload 3012 7452 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 20:40:43,539 autoreload 16736 16688 Watching for file changes with StatReloader
+INFO 2023-09-27 20:40:47,530 basehttp 16736 8608 "GET /account/user/add/ HTTP/1.1" 200 4021
+INFO 2023-09-27 20:40:49,043 basehttp 16736 8608 "GET /account/forms/ HTTP/1.1" 200 5413
+INFO 2023-09-27 20:40:51,308 basehttp 16736 8608 "GET /account/user/add/ HTTP/1.1" 200 4021
+INFO 2023-09-27 20:42:30,811 autoreload 16736 16688 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 20:42:31,285 autoreload 19336 18768 Watching for file changes with StatReloader
+INFO 2023-09-27 20:42:59,553 autoreload 19336 18768 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 20:43:00,062 autoreload 14964 7208 Watching for file changes with StatReloader
+INFO 2023-09-27 20:43:55,264 autoreload 14964 7208 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 20:43:55,746 autoreload 13080 18844 Watching for file changes with StatReloader
+INFO 2023-09-27 20:45:03,626 autoreload 13080 18844 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 20:45:04,094 autoreload 19272 9012 Watching for file changes with StatReloader
+INFO 2023-09-27 20:45:06,016 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4021
+INFO 2023-09-27 20:45:07,621 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4021
+INFO 2023-09-27 20:45:08,477 basehttp 19272 19148 "GET /account/forms/ HTTP/1.1" 200 5413
+INFO 2023-09-27 20:45:09,662 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4021
+INFO 2023-09-27 20:45:54,192 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4033
+INFO 2023-09-27 20:45:55,137 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4033
+INFO 2023-09-27 20:46:06,722 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4078
+INFO 2023-09-27 20:46:07,568 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4078
+INFO 2023-09-27 20:46:13,469 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4078
+INFO 2023-09-27 20:46:14,040 basehttp 19272 19148 "GET /account/user/add/ HTTP/1.1" 200 4033
+INFO 2023-09-27 20:47:24,798 autoreload 19272 9012 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 20:47:25,287 autoreload 13936 8656 Watching for file changes with StatReloader
+INFO 2023-09-27 20:47:46,324 autoreload 13936 8656 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 20:47:46,785 autoreload 11900 11888 Watching for file changes with StatReloader
+ERROR 2023-09-27 20:47:47,569 log 11900 18936 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:47:47,573 basehttp 11900 18936 "GET /account/user/add/ HTTP/1.1" 500 174674
+INFO 2023-09-27 20:48:16,367 autoreload 11900 11888 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 20:48:16,872 autoreload 13588 8764 Watching for file changes with StatReloader
+INFO 2023-09-27 20:48:19,174 basehttp 13588 17284 "GET /account/user/add/ HTTP/1.1" 200 4033
+INFO 2023-09-27 20:49:10,678 autoreload 13588 8764 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 20:49:11,169 autoreload 4900 3172 Watching for file changes with StatReloader
+INFO 2023-09-27 20:49:11,445 basehttp 4900 12160 "GET /account/user/add/ HTTP/1.1" 200 4046
+INFO 2023-09-27 20:50:02,730 autoreload 4900 3172 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 20:50:03,205 autoreload 3776 12180 Watching for file changes with StatReloader
+ERROR 2023-09-27 20:50:03,825 log 3776 9832 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:03,829 basehttp 3776 9832 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:20,026 log 3776 9832 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:20,029 basehttp 3776 9832 "GET /account/user/add/ HTTP/1.1" 500 174674
+INFO 2023-09-27 20:50:20,322 autoreload 3776 12180 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 20:50:20,790 autoreload 18644 15584 Watching for file changes with StatReloader
+ERROR 2023-09-27 20:50:21,080 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:21,085 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:21,830 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:21,833 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:22,902 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:22,905 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:23,681 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:23,684 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:24,278 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:24,281 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:26,003 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:26,006 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:28,520 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:28,523 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:29,771 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:29,774 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+ERROR 2023-09-27 20:50:32,375 log 18644 5716 Internal Server Error: /account/user/add/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 41, in add_user
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user_form' not found. 'user_form' is not a valid view function or pattern name.
+ERROR 2023-09-27 20:50:32,377 basehttp 18644 5716 "GET /account/user/add/ HTTP/1.1" 500 174674
+INFO 2023-09-27 20:50:40,005 autoreload 18644 15584 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 20:50:40,476 autoreload 608 1724 Watching for file changes with StatReloader
+INFO 2023-09-27 20:50:40,605 basehttp 608 15540 "GET /account/user/add/ HTTP/1.1" 200 4046
+INFO 2023-09-27 20:51:25,577 basehttp 608 15540 "POST /account/user/add/ HTTP/1.1" 200 4139
+INFO 2023-09-27 20:51:37,173 basehttp 608 15540 "POST /account/user/add/ HTTP/1.1" 200 4138
+INFO 2023-09-27 20:51:55,285 views 608 15540 Take username='newuser', email='aaa@vk.team'.
+INFO 2023-09-27 20:51:55,293 basehttp 608 15540 "POST /account/user/add/ HTTP/1.1" 200 4087
+INFO 2023-09-27 20:53:13,383 autoreload 608 1724 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 20:53:13,855 autoreload 8436 14264 Watching for file changes with StatReloader
+INFO 2023-09-27 20:53:16,658 basehttp 8436 8508 "GET /account/user HTTP/1.1" 301 0
+INFO 2023-09-27 20:53:16,677 basehttp 8436 9532 "GET /account/user/ HTTP/1.1" 200 4046
+INFO 2023-09-27 20:53:21,763 basehttp 8436 9532 "GET /account/user/ HTTP/1.1" 200 4046
+INFO 2023-09-27 20:53:31,133 basehttp 8436 9532 "GET /account/user/add/ HTTP/1.1" 200 4033
+INFO 2023-09-27 20:53:33,491 basehttp 8436 9532 "GET /account/user/add/ HTTP/1.1" 200 4033
+INFO 2023-09-27 20:53:36,995 basehttp 8436 9532 "GET /account/user/ HTTP/1.1" 200 4046
+INFO 2023-09-27 20:55:30,470 basehttp 8436 9532 "POST /account/user/ HTTP/1.1" 200 4129
+INFO 2023-09-27 20:58:12,261 autoreload 8436 14264 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:58:12,746 autoreload 1684 11256 Watching for file changes with StatReloader
+INFO 2023-09-27 20:58:14,526 basehttp 1684 7608 "POST /account/user/ HTTP/1.1" 200 4206
+INFO 2023-09-27 20:58:48,839 autoreload 1684 11256 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:58:49,318 autoreload 8512 6840 Watching for file changes with StatReloader
+INFO 2023-09-27 20:58:50,377 basehttp 8512 13656 "POST /account/user/ HTTP/1.1" 200 4302
+INFO 2023-09-27 20:59:05,364 autoreload 8512 6840 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:59:05,848 autoreload 10948 1276 Watching for file changes with StatReloader
+INFO 2023-09-27 20:59:06,630 basehttp 10948 2388 "POST /account/user/ HTTP/1.1" 200 4302
+INFO 2023-09-27 20:59:23,632 basehttp 10948 2388 "GET /account/user/ HTTP/1.1" 200 4060
+INFO 2023-09-27 20:59:49,062 autoreload 10948 1276 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:59:49,542 autoreload 13776 19380 Watching for file changes with StatReloader
+INFO 2023-09-27 20:59:58,276 autoreload 13776 19380 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 20:59:58,737 autoreload 14708 5216 Watching for file changes with StatReloader
+INFO 2023-09-27 21:00:02,945 basehttp 14708 17240 "GET /account/user/ HTTP/1.1" 200 4046
+INFO 2023-09-27 21:00:07,093 basehttp 14708 17240 "POST /account/user/ HTTP/1.1" 200 4190
+INFO 2023-09-27 21:00:14,799 basehttp 14708 17240 "POST /account/user/ HTTP/1.1" 200 4131
+INFO 2023-09-27 21:00:23,819 basehttp 14708 17240 "POST /account/user/ HTTP/1.1" 200 4131
+INFO 2023-09-27 21:00:24,355 autoreload 14708 5216 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:00:24,831 autoreload 2752 18028 Watching for file changes with StatReloader
+INFO 2023-09-27 21:00:25,138 basehttp 2752 7084 "POST /account/user/ HTTP/1.1" 200 4208
+INFO 2023-09-27 21:00:33,869 basehttp 2752 7084 "POST /account/user/ HTTP/1.1" 200 4208
+INFO 2023-09-27 21:00:42,953 autoreload 2752 18028 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:00:43,427 autoreload 11108 15216 Watching for file changes with StatReloader
+INFO 2023-09-27 21:00:44,772 basehttp 11108 12328 "POST /account/user/ HTTP/1.1" 200 4304
+INFO 2023-09-27 21:00:57,665 basehttp 11108 12328 "GET /account/user/ HTTP/1.1" 200 4060
+INFO 2023-09-27 21:01:08,001 autoreload 11108 15216 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:01:08,476 autoreload 15292 14616 Watching for file changes with StatReloader
+INFO 2023-09-27 21:01:09,303 basehttp 15292 6928 "GET /account/user/ HTTP/1.1" 200 4060
+INFO 2023-09-27 21:01:18,265 autoreload 15292 14616 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:01:18,743 autoreload 6772 17368 Watching for file changes with StatReloader
+INFO 2023-09-27 21:01:30,552 basehttp 6772 17404 "POST /account/user/ HTTP/1.1" 200 4208
+INFO 2023-09-27 21:01:35,254 basehttp 6772 17404 "POST /account/user/ HTTP/1.1" 200 4149
+INFO 2023-09-27 21:02:44,870 autoreload 6772 17368 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:02:45,356 autoreload 14008 8104 Watching for file changes with StatReloader
+INFO 2023-09-27 21:03:28,178 autoreload 14008 8104 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:03:28,696 autoreload 11824 2020 Watching for file changes with StatReloader
+INFO 2023-09-27 21:03:43,511 autoreload 11824 2020 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:03:43,974 autoreload 10524 5160 Watching for file changes with StatReloader
+INFO 2023-09-27 21:03:46,814 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4155
+INFO 2023-09-27 21:04:06,484 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4179
+INFO 2023-09-27 21:04:28,183 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4179
+INFO 2023-09-27 21:04:28,818 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4227
+INFO 2023-09-27 21:04:32,685 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:04:59,980 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:05:00,731 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:05:01,467 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:05:03,432 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:05:10,650 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:05:11,156 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:05:12,023 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4226
+INFO 2023-09-27 21:05:17,689 basehttp 10524 15540 "GET /account/user/ HTTP/1.1" 200 4246
+INFO 2023-09-27 21:05:39,393 autoreload 10524 5160 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:05:39,894 autoreload 15808 17748 Watching for file changes with StatReloader
+INFO 2023-09-27 21:05:40,131 basehttp 15808 18912 "GET /account/user/ HTTP/1.1" 200 4250
+INFO 2023-09-27 21:05:46,728 basehttp 15808 18912 "GET /account/forms/ HTTP/1.1" 200 5413
+INFO 2023-09-27 21:05:47,485 basehttp 15808 18912 "GET /account/user/add/ HTTP/1.1" 200 4233
+INFO 2023-09-27 21:05:49,016 basehttp 15808 18912 "GET /account/forms/ HTTP/1.1" 200 5413
+INFO 2023-09-27 21:05:50,586 basehttp 15808 18912 "GET /account/user/add/ HTTP/1.1" 200 4233
+INFO 2023-09-27 21:05:51,323 basehttp 15808 18912 "GET /account/forms/ HTTP/1.1" 200 5413
+INFO 2023-09-27 21:05:52,482 basehttp 15808 18912 "GET /account/user/add/ HTTP/1.1" 200 4233
+INFO 2023-09-27 21:05:54,432 basehttp 15808 18912 "GET /account/forms/ HTTP/1.1" 200 5413
+INFO 2023-09-27 21:06:15,027 views 15808 18912 Index page accessed
+INFO 2023-09-27 21:06:15,030 basehttp 15808 18912 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 21:06:16,095 basehttp 15808 18912 "GET /account/user/ HTTP/1.1" 200 4249
+INFO 2023-09-27 21:06:17,130 basehttp 15808 18912 "GET /account/user/add/ HTTP/1.1" 200 4232
+INFO 2023-09-27 21:06:17,892 basehttp 15808 18912 "GET /account/user/ HTTP/1.1" 200 4249
+INFO 2023-09-27 21:06:20,100 basehttp 15808 18912 "GET /account/user/add/ HTTP/1.1" 200 4232
+INFO 2023-09-27 21:06:21,004 views 15808 18912 Index page accessed
+INFO 2023-09-27 21:06:21,007 basehttp 15808 18912 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 21:11:22,126 autoreload 15808 17748 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:11:22,616 autoreload 12920 17656 Watching for file changes with StatReloader
+INFO 2023-09-27 21:11:36,316 autoreload 12920 17656 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:11:36,814 autoreload 8764 12092 Watching for file changes with StatReloader
+INFO 2023-09-27 21:11:47,438 autoreload 8764 12092 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:11:47,921 autoreload 14800 18464 Watching for file changes with StatReloader
+INFO 2023-09-27 21:12:22,759 autoreload 14800 18464 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 21:12:23,252 autoreload 18028 13508 Watching for file changes with StatReloader
+INFO 2023-09-27 21:13:20,134 autoreload 18028 13508 E:\pythonProject\djangoGB\djangoGB\settings.py changed, reloading.
+INFO 2023-09-27 21:13:20,617 autoreload 9584 12892 Watching for file changes with StatReloader
+INFO 2023-09-27 21:15:38,886 autoreload 9584 12892 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:15:39,407 autoreload 3236 18756 Watching for file changes with StatReloader
+INFO 2023-09-27 21:19:02,360 autoreload 3236 18756 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:19:02,832 autoreload 7360 16276 Watching for file changes with StatReloader
+INFO 2023-09-27 21:19:09,254 basehttp 7360 16288 "GET /account/forms/ HTTP/1.1" 200 5484
+INFO 2023-09-27 21:19:37,793 autoreload 7360 16276 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:19:38,276 autoreload 15924 2004 Watching for file changes with StatReloader
+INFO 2023-09-27 21:19:40,204 basehttp 15924 1336 "GET /account/forms/ HTTP/1.1" 200 5484
+INFO 2023-09-27 21:19:50,285 autoreload 15924 2004 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:19:50,767 autoreload 8772 9336 Watching for file changes with StatReloader
+INFO 2023-09-27 21:19:51,480 basehttp 8772 17764 "GET /account/forms/ HTTP/1.1" 200 5484
+INFO 2023-09-27 21:19:52,717 basehttp 8772 17764 "GET /account/forms/ HTTP/1.1" 200 5484
+INFO 2023-09-27 21:19:54,717 basehttp 8772 17764 "GET /account/forms/ HTTP/1.1" 200 5484
+INFO 2023-09-27 21:20:19,373 autoreload 8772 9336 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:20:19,873 autoreload 8680 8116 Watching for file changes with StatReloader
+INFO 2023-09-27 21:20:39,106 autoreload 8680 8116 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:20:39,622 autoreload 17860 13080 Watching for file changes with StatReloader
+INFO 2023-09-27 21:22:35,994 autoreload 17860 13080 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:22:36,501 autoreload 1016 12024 Watching for file changes with StatReloader
+INFO 2023-09-27 21:24:00,552 autoreload 1016 12024 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:24:01,018 autoreload 7652 17776 Watching for file changes with StatReloader
+INFO 2023-09-27 21:24:23,020 views 7652 8484 Index page accessed
+INFO 2023-09-27 21:24:23,030 basehttp 7652 8484 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 21:24:24,014 basehttp 7652 8484 "GET /account/user/add/ HTTP/1.1" 200 4232
+INFO 2023-09-27 21:24:25,026 basehttp 7652 8484 "GET /account/user/ HTTP/1.1" 200 4249
+INFO 2023-09-27 21:24:26,520 views 7652 8484 Index page accessed
+INFO 2023-09-27 21:24:26,523 basehttp 7652 8484 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 21:25:57,668 autoreload 7652 17776 E:\pythonProject\djangoGB\djangoGB\urls.py changed, reloading.
+INFO 2023-09-27 21:25:58,157 autoreload 8244 13276 Watching for file changes with StatReloader
+INFO 2023-09-27 21:28:35,577 autoreload 8244 13276 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:28:36,050 autoreload 1976 14692 Watching for file changes with StatReloader
+INFO 2023-09-27 21:29:57,519 autoreload 1976 14692 E:\pythonProject\djangoGB\djangoGB\urls.py changed, reloading.
+INFO 2023-09-27 21:29:57,999 autoreload 16208 13356 Watching for file changes with StatReloader
+ERROR 2023-09-27 21:29:58,312 log 16208 16396 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 55, in upload_image
+    return render(request, "upload_image.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: upload_image.html
+ERROR 2023-09-27 21:29:58,314 basehttp 16208 16396 "GET /account/upload/ HTTP/1.1" 500 83376
+ERROR 2023-09-27 21:30:00,031 log 16208 16396 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 55, in upload_image
+    return render(request, "upload_image.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: upload_image.html
+ERROR 2023-09-27 21:30:00,032 basehttp 16208 16396 "GET /account/upload/ HTTP/1.1" 500 83513
+INFO 2023-09-27 21:30:14,066 autoreload 16208 13356 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:30:14,531 autoreload 16680 18688 Watching for file changes with StatReloader
+ERROR 2023-09-27 21:30:15,051 log 16680 17972 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'form.as_p'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 55, in upload_image
+    return render(request, "account/upload_image.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'form.as_p', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-27 21:30:15,055 basehttp 16680 17972 "GET /account/upload/ HTTP/1.1" 500 163350
+ERROR 2023-09-27 21:30:15,922 log 16680 17972 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'form.as_p'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 55, in upload_image
+    return render(request, "account/upload_image.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'form.as_p', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-27 21:30:15,925 basehttp 16680 17972 "GET /account/upload/ HTTP/1.1" 500 163350
+ERROR 2023-09-27 21:30:16,955 log 16680 17972 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'form.as_p'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 55, in upload_image
+    return render(request, "account/upload_image.html", {"form": form})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'form.as_p', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-27 21:30:16,958 basehttp 16680 17972 "GET /account/upload/ HTTP/1.1" 500 163350
+INFO 2023-09-27 21:30:39,409 basehttp 16680 17972 "GET /account/upload/ HTTP/1.1" 200 3768
+ERROR 2023-09-27 21:30:48,445 log 16680 17972 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 49, in upload_image
+    if form.is_valid():
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 443, in _clean_fields
+    value = field.clean(value, bf.initial)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\fields.py", line 681, in clean
+    return super().clean(data)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\fields.py", line 198, in clean
+    value = self.to_python(value)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\fields.py", line 708, in to_python
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+ERROR 2023-09-27 21:30:48,447 basehttp 16680 17972 "POST /account/upload/ HTTP/1.1" 500 97069
+INFO 2023-09-27 21:31:09,938 basehttp 16680 17972 "GET /account/upload/ HTTP/1.1" 200 3768
+INFO 2023-09-27 21:31:10,971 basehttp 16680 17972 "GET /account/upload/ HTTP/1.1" 200 3817
+INFO 2023-09-27 21:32:33,859 basehttp 16680 17972 "GET /account/upload/ HTTP/1.1" 200 3845
+INFO 2023-09-27 21:34:22,146 autoreload 14204 15836 Watching for file changes with StatReloader
+WARNING 2023-09-27 21:34:23,604 log 14204 10164 Not Found: /upload/
+WARNING 2023-09-27 21:34:23,605 basehttp 14204 10164 "GET /upload/ HTTP/1.1" 404 3486
+WARNING 2023-09-27 21:34:25,188 log 14204 10164 Not Found: /upload/
+WARNING 2023-09-27 21:34:25,188 basehttp 14204 10164 "GET /upload/ HTTP/1.1" 404 3486
+INFO 2023-09-27 21:34:28,455 basehttp 14204 10164 "GET /account/upload/ HTTP/1.1" 200 3845
+ERROR 2023-09-27 21:34:31,562 log 14204 10164 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 50, in upload_image
+    image = form.cleaned_data["img"]
+KeyError: 'img'
+ERROR 2023-09-27 21:34:31,563 basehttp 14204 10164 "POST /account/upload/ HTTP/1.1" 500 69555
+INFO 2023-09-27 21:35:07,007 autoreload 14204 15836 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:35:07,495 autoreload 17872 16356 Watching for file changes with StatReloader
+ERROR 2023-09-27 21:35:09,592 log 17872 2028 Internal Server Error: /account/upload/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 51, in upload_image
+    fs = FileSystemStorege()
+NameError: name 'FileSystemStorege' is not defined
+ERROR 2023-09-27 21:35:09,593 basehttp 17872 2028 "POST /account/upload/ HTTP/1.1" 500 69776
+INFO 2023-09-27 21:35:39,506 autoreload 17872 16356 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 21:35:39,994 autoreload 4320 11068 Watching for file changes with StatReloader
+INFO 2023-09-27 21:35:42,180 basehttp 4320 14284 "POST /account/upload/ HTTP/1.1" 200 3845
+INFO 2023-09-27 21:36:10,057 basehttp 4320 14284 "POST /account/upload/ HTTP/1.1" 200 3845
+INFO 2023-09-27 21:38:10,600 basehttp 4320 14284 "GET /account/user/ HTTP/1.1" 200 4271
+INFO 2023-09-27 21:38:11,322 basehttp 4320 14284 "GET /account/user/add/ HTTP/1.1" 200 4254
+INFO 2023-09-27 21:38:11,964 basehttp 4320 14284 "GET /account/user/ HTTP/1.1" 200 4271
+INFO 2023-09-27 22:46:53,621 autoreload 18704 15388 Watching for file changes with StatReloader
+INFO 2023-09-27 22:46:55,205 views 18704 2820 Index page accessed
+INFO 2023-09-27 22:46:55,220 basehttp 18704 2820 "GET / HTTP/1.1" 200 13021
+WARNING 2023-09-27 22:46:55,330 log 18704 2820 Not Found: /favicon.ico
+WARNING 2023-09-27 22:46:55,331 basehttp 18704 2820 "GET /favicon.ico HTTP/1.1" 404 3498
