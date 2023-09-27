@@ -3155,3 +3155,378 @@ INFO 2023-09-27 22:46:55,205 views 18704 2820 Index page accessed
 INFO 2023-09-27 22:46:55,220 basehttp 18704 2820 "GET / HTTP/1.1" 200 13021
 WARNING 2023-09-27 22:46:55,330 log 18704 2820 Not Found: /favicon.ico
 WARNING 2023-09-27 22:46:55,331 basehttp 18704 2820 "GET /favicon.ico HTTP/1.1" 404 3498
+INFO 2023-09-27 22:49:06,498 views 18704 2820 Index page accessed
+INFO 2023-09-27 22:49:06,501 basehttp 18704 2820 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 22:49:07,090 views 18704 2820 Index page accessed
+INFO 2023-09-27 22:49:07,093 basehttp 18704 2820 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 22:49:07,746 basehttp 18704 2820 "GET /account/user/add/ HTTP/1.1" 200 4254
+INFO 2023-09-27 22:49:08,874 basehttp 18704 2820 "GET /account/user/ HTTP/1.1" 200 4271
+INFO 2023-09-27 22:49:10,007 basehttp 18704 2820 "GET /account/user/add/ HTTP/1.1" 200 4254
+INFO 2023-09-27 22:49:10,728 basehttp 18704 2820 "GET /account/user/ HTTP/1.1" 200 4271
+INFO 2023-09-27 22:56:31,356 autoreload 18704 15388 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 22:56:31,934 autoreload 5652 11672 Watching for file changes with StatReloader
+INFO 2023-09-27 22:58:23,145 autoreload 5652 11672 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 22:58:23,606 autoreload 8716 10360 Watching for file changes with StatReloader
+INFO 2023-09-27 22:59:11,625 autoreload 8716 10360 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 22:59:12,091 autoreload 4448 5772 Watching for file changes with StatReloader
+INFO 2023-09-27 22:59:12,395 basehttp 4448 12532 "GET /account/user/ HTTP/1.1" 200 4609
+INFO 2023-09-27 22:59:47,975 autoreload 4448 5772 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 22:59:48,481 autoreload 4140 8392 Watching for file changes with StatReloader
+INFO 2023-09-27 22:59:48,627 basehttp 4140 1336 "GET /account/user/ HTTP/1.1" 200 4613
+INFO 2023-09-27 23:01:23,827 autoreload 4140 8392 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:01:24,323 autoreload 11292 13196 Watching for file changes with StatReloader
+INFO 2023-09-27 23:01:25,118 basehttp 11292 2324 "GET /account/user/ HTTP/1.1" 200 4622
+INFO 2023-09-27 23:06:10,959 autoreload 11292 13196 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:06:11,441 autoreload 11596 6220 Watching for file changes with StatReloader
+INFO 2023-09-27 23:06:56,263 basehttp 11596 7036 "GET /account/user/ HTTP/1.1" 200 4622
+ERROR 2023-09-27 23:07:26,364 log 11596 7036 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 28, in add_user
+    username = form.cleaned_data["username"]
+KeyError: 'username'
+ERROR 2023-09-27 23:07:26,366 basehttp 11596 7036 "POST /account/user/ HTTP/1.1" 500 70109
+ERROR 2023-09-27 23:07:33,546 log 11596 7036 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 28, in add_user
+    username = form.cleaned_data["username"]
+KeyError: 'username'
+ERROR 2023-09-27 23:07:33,547 basehttp 11596 7036 "POST /account/user/ HTTP/1.1" 500 70104
+INFO 2023-09-27 23:08:00,746 autoreload 11596 6220 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:08:01,217 autoreload 17988 15692 Watching for file changes with StatReloader
+INFO 2023-09-27 23:08:05,033 views 17988 18096 Take username='customer', email='custom@vk.team'.
+INFO 2023-09-27 23:08:05,052 basehttp 17988 18096 "POST /account/user/ HTTP/1.1" 200 4654
+INFO 2023-09-27 23:11:45,354 autoreload 17988 15692 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:11:45,937 autoreload 10532 17068 Watching for file changes with StatReloader
+INFO 2023-09-27 23:12:22,872 autoreload 10532 17068 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:12:23,364 autoreload 19324 1300 Watching for file changes with StatReloader
+ERROR 2023-09-27 23:12:29,857 log 19324 7888 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 27, in add_user
+    if form.is_valid():
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 448, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "E:\pythonProject\djangoGB\account\forms.py", line 29, in clean_password
+    password_repeat: str = self.cleaned_data["password_repeat"]
+KeyError: 'password_repeat'
+ERROR 2023-09-27 23:12:29,859 basehttp 19324 7888 "POST /account/user/ HTTP/1.1" 500 89156
+INFO 2023-09-27 23:12:42,701 autoreload 19324 1300 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:12:43,178 autoreload 1568 10928 Watching for file changes with StatReloader
+ERROR 2023-09-27 23:12:46,178 log 1568 8272 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 27, in add_user
+    if form.is_valid():
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 448, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "E:\pythonProject\djangoGB\account\forms.py", line 29, in clean_password
+    password_repeat: str = self.cleaned_data["password_repeat"]
+KeyError: 'password_repeat'
+ERROR 2023-09-27 23:12:46,180 basehttp 1568 8272 "POST /account/user/ HTTP/1.1" 500 89158
+ERROR 2023-09-27 23:12:54,470 log 1568 8272 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 27, in add_user
+    if form.is_valid():
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 448, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "E:\pythonProject\djangoGB\account\forms.py", line 29, in clean_password
+    password_repeat: str = self.cleaned_data["password_repeat"]
+KeyError: 'password_repeat'
+ERROR 2023-09-27 23:12:54,472 basehttp 1568 8272 "POST /account/user/ HTTP/1.1" 500 89159
+INFO 2023-09-27 23:13:25,537 autoreload 1568 10928 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 23:13:26,019 autoreload 18864 10992 Watching for file changes with StatReloader
+ERROR 2023-09-27 23:13:28,961 log 18864 15628 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 27, in add_user
+    if form.is_valid():
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\forms\forms.py", line 448, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "E:\pythonProject\djangoGB\account\forms.py", line 29, in clean_password
+    password_repeat: str = self.cleaned_data["password_repeat"]
+KeyError: 'password_repeat'
+ERROR 2023-09-27 23:13:28,963 basehttp 18864 15628 "POST /account/user/ HTTP/1.1" 500 89183
+INFO 2023-09-27 23:14:39,677 autoreload 18864 10992 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 23:14:40,167 autoreload 1480 6396 Watching for file changes with StatReloader
+ERROR 2023-09-27 23:14:42,911 log 1480 4116 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 33, in add_user
+    raise forms.ValidationError("Passwords don't match")
+NameError: name 'forms' is not defined
+ERROR 2023-09-27 23:14:42,912 basehttp 1480 4116 "POST /account/user/ HTTP/1.1" 500 70970
+INFO 2023-09-27 23:14:50,102 autoreload 1480 6396 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:14:50,576 autoreload 15540 4820 Watching for file changes with StatReloader
+ERROR 2023-09-27 23:14:52,107 log 15540 14928 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 33, in add_user
+    raise ValidationError("Passwords don't match")
+NameError: name 'ValidationError' is not defined
+ERROR 2023-09-27 23:14:52,108 basehttp 15540 14928 "POST /account/user/ HTTP/1.1" 500 70998
+INFO 2023-09-27 23:15:06,769 autoreload 15540 4820 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:15:07,246 autoreload 11784 14908 Watching for file changes with StatReloader
+ERROR 2023-09-27 23:15:08,725 log 11784 18836 Internal Server Error: /account/user/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 33, in add_user
+    raise Exception("Passwords don't match")
+Exception: Passwords don't match
+ERROR 2023-09-27 23:15:08,727 basehttp 11784 18836 "POST /account/user/ HTTP/1.1" 500 70902
+INFO 2023-09-27 23:16:18,779 autoreload 11784 14908 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:16:19,264 autoreload 3264 12812 Watching for file changes with StatReloader
+INFO 2023-09-27 23:16:20,802 views 3264 1996 Take username='customer', email='custom@vk.team', password='qwe'.
+INFO 2023-09-27 23:16:20,822 basehttp 3264 1996 "POST /account/user/ HTTP/1.1" 200 4654
+INFO 2023-09-27 23:16:33,068 views 3264 1996 Take username='customer', email='custom@vk.team', password='qw'.
+INFO 2023-09-27 23:16:33,076 basehttp 3264 1996 "POST /account/user/ HTTP/1.1" 200 4654
+INFO 2023-09-27 23:18:14,630 autoreload 3264 12812 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:18:15,213 autoreload 4960 16080 Watching for file changes with StatReloader
+INFO 2023-09-27 23:18:33,360 autoreload 4960 16080 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:18:33,834 autoreload 16444 5000 Watching for file changes with StatReloader
+INFO 2023-09-27 23:18:36,251 basehttp 16444 6712 "POST /account/user/ HTTP/1.1" 200 4622
+INFO 2023-09-27 23:18:57,229 views 16444 6712 Take username='123', email='123@vk.team', password='123'.
+INFO 2023-09-27 23:18:57,237 basehttp 16444 6712 "POST /account/user/ HTTP/1.1" 200 4646
+INFO 2023-09-27 23:20:28,482 views 16444 6712 Index page accessed
+INFO 2023-09-27 23:20:28,488 basehttp 16444 6712 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 23:20:29,516 basehttp 16444 6712 "GET /account/user/ HTTP/1.1" 200 4622
+INFO 2023-09-27 23:20:30,669 views 16444 6712 Index page accessed
+INFO 2023-09-27 23:20:30,671 basehttp 16444 6712 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 23:20:31,196 basehttp 16444 6712 "GET /account/user/add/ HTTP/1.1" 200 4596
+INFO 2023-09-27 23:20:32,040 basehttp 16444 6712 "GET /account/user/ HTTP/1.1" 200 4622
+INFO 2023-09-27 23:20:33,151 basehttp 16444 6712 "GET /account/user/add/ HTTP/1.1" 200 4596
+INFO 2023-09-27 23:20:35,362 basehttp 16444 6712 "GET /account/user/ HTTP/1.1" 200 4622
+INFO 2023-09-27 23:20:35,682 basehttp 16444 6712 "GET /account/user/ HTTP/1.1" 200 4622
+INFO 2023-09-27 23:20:39,004 views 16444 6712 Index page accessed
+INFO 2023-09-27 23:20:39,006 basehttp 16444 6712 "GET / HTTP/1.1" 200 13021
+INFO 2023-09-27 23:21:13,039 basehttp 16444 6712 "GET /account/user/ HTTP/1.1" 200 4622
+INFO 2023-09-27 23:21:13,204 autoreload 16444 5000 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 23:21:13,686 autoreload 4168 5368 Watching for file changes with StatReloader
+WARNING 2023-09-27 23:21:16,408 log 4168 14448 Not Found: /account/user/
+WARNING 2023-09-27 23:21:16,409 basehttp 4168 14448 "GET /account/user/ HTTP/1.1" 404 4132
+INFO 2023-09-27 23:21:18,009 views 4168 14448 Index page accessed
+INFO 2023-09-27 23:21:18,018 basehttp 4168 14448 "GET / HTTP/1.1" 200 13029
+INFO 2023-09-27 23:21:33,402 basehttp 4168 14448 "GET /account/registration/ HTTP/1.1" 200 4630
+INFO 2023-09-27 23:21:34,234 autoreload 4168 5368 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 23:21:34,692 autoreload 4724 8524 Watching for file changes with StatReloader
+INFO 2023-09-27 23:21:35,592 views 4724 7984 Index page accessed
+INFO 2023-09-27 23:21:35,602 basehttp 4724 7984 "GET / HTTP/1.1" 200 13037
+INFO 2023-09-27 23:21:36,354 basehttp 4724 7984 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:21:37,066 views 4724 7984 Index page accessed
+INFO 2023-09-27 23:21:37,069 basehttp 4724 7984 "GET / HTTP/1.1" 200 13037
+INFO 2023-09-27 23:22:29,507 views 4724 7984 Index page accessed
+INFO 2023-09-27 23:22:29,510 basehttp 4724 7984 "GET / HTTP/1.1" 200 13037
+INFO 2023-09-27 23:22:30,275 basehttp 4724 7984 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:22:30,464 autoreload 4724 8524 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:22:30,951 autoreload 10336 1380 Watching for file changes with StatReloader
+INFO 2023-09-27 23:22:33,140 views 10336 19392 Index page accessed
+INFO 2023-09-27 23:22:33,152 basehttp 10336 19392 "GET / HTTP/1.1" 200 13037
+INFO 2023-09-27 23:25:13,317 basehttp 10336 19392 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:25:14,244 autoreload 10336 1380 E:\pythonProject\djangoGB\account\forms.py changed, reloading.
+INFO 2023-09-27 23:25:14,727 autoreload 16696 14736 Watching for file changes with StatReloader
+INFO 2023-09-27 23:25:16,407 basehttp 16696 16564 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:25:16,850 basehttp 16696 16564 "GET /account/registration/add/ HTTP/1.1" 200 4612
+INFO 2023-09-27 23:25:17,964 basehttp 16696 16564 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:25:18,624 basehttp 16696 16564 "GET /account/registration/add/ HTTP/1.1" 200 4612
+INFO 2023-09-27 23:25:19,266 basehttp 16696 16564 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:25:19,949 basehttp 16696 16564 "GET /account/registration/add/ HTTP/1.1" 200 4612
+INFO 2023-09-27 23:25:20,763 basehttp 16696 16564 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:25:51,771 autoreload 16696 14736 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 23:25:52,257 autoreload 18864 8696 Watching for file changes with StatReloader
+ERROR 2023-09-27 23:25:52,741 log 18864 11492 Internal Server Error: /account/registration/
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 44, in user_registration
+    return render(request, "account/user_form.html", {"form": form, "message": message})
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'add_user' not found. 'add_user' is not a valid view function or pattern name.
+ERROR 2023-09-27 23:25:52,745 basehttp 18864 11492 "GET /account/registration/ HTTP/1.1" 500 175110
+INFO 2023-09-27 23:26:14,834 basehttp 18864 11492 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:26:24,997 autoreload 18864 8696 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 23:26:25,469 autoreload 13996 13900 Watching for file changes with StatReloader
+INFO 2023-09-27 23:26:25,954 basehttp 13996 16512 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:26:27,018 basehttp 13996 16512 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:26:27,492 basehttp 13996 16512 "GET /account/registration/add/ HTTP/1.1" 200 4612
+INFO 2023-09-27 23:26:27,969 basehttp 13996 16512 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:27:57,716 autoreload 13996 13900 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:27:58,193 autoreload 12212 1612 Watching for file changes with StatReloader
+INFO 2023-09-27 23:27:58,691 basehttp 12212 12460 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:27:59,426 basehttp 12212 12460 "GET /account/registration/add/ HTTP/1.1" 200 4612
+INFO 2023-09-27 23:27:59,868 basehttp 12212 12460 "GET /account/registration/ HTTP/1.1" 200 4638
+INFO 2023-09-27 23:31:55,479 autoreload 12212 1612 E:\pythonProject\djangoGB\account\urls.py changed, reloading.
+INFO 2023-09-27 23:31:55,975 autoreload 11392 16536 Watching for file changes with StatReloader
+INFO 2023-09-27 23:32:05,123 views 11392 7672 Index page accessed
+INFO 2023-09-27 23:32:05,133 basehttp 11392 7672 "GET / HTTP/1.1" 200 13025
+ERROR 2023-09-27 23:32:06,286 log 11392 7672 Internal Server Error: /account/login
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 19, in login_form
+    form = LoginFormForm()
+NameError: name 'LoginFormForm' is not defined
+ERROR 2023-09-27 23:32:06,287 basehttp 11392 7672 "GET /account/login HTTP/1.1" 500 68422
+INFO 2023-09-27 23:32:17,597 autoreload 11392 16536 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:32:18,087 autoreload 11088 3828 Watching for file changes with StatReloader
+INFO 2023-09-27 23:32:18,504 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:19,927 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:20,621 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:22,571 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:23,932 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:34,212 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:35,209 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:35,729 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:36,189 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:36,903 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:37,823 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:38,580 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:38,849 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:39,127 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:40,126 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:40,945 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:44,937 views 11088 4620 Index page accessed
+INFO 2023-09-27 23:32:44,943 basehttp 11088 4620 "GET / HTTP/1.1" 200 13025
+INFO 2023-09-27 23:32:46,020 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:46,782 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:47,605 basehttp 11088 4620 "GET /account/login HTTP/1.1" 200 4208
+INFO 2023-09-27 23:32:48,554 views 11088 4620 Index page accessed
+INFO 2023-09-27 23:32:48,556 basehttp 11088 4620 "GET / HTTP/1.1" 200 13025
+INFO 2023-09-27 23:32:50,541 basehttp 11088 4620 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:32:54,478 views 11088 4620 Index page accessed
+INFO 2023-09-27 23:32:54,480 basehttp 11088 4620 "GET / HTTP/1.1" 200 13025
+INFO 2023-09-27 23:51:29,656 autoreload 11088 3828 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:51:30,142 autoreload 12568 10408 Watching for file changes with StatReloader
+INFO 2023-09-27 23:52:22,646 autoreload 12568 10408 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:52:23,139 autoreload 11068 18552 Watching for file changes with StatReloader
+INFO 2023-09-27 23:52:24,559 basehttp 11068 5568 "GET /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:52:35,833 basehttp 11068 5568 "POST /account/registration/ HTTP/1.1" 200 4626
+INFO 2023-09-27 23:52:51,018 views 11068 5568 Registration new user: username='newtest', email='new@new.ru', password='qwerty'.
+INFO 2023-09-27 23:52:51,026 basehttp 11068 5568 "POST /account/registration/ HTTP/1.1" 200 4653
+INFO 2023-09-27 23:57:50,498 autoreload 11068 18552 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-27 23:57:50,971 autoreload 18852 1812 Watching for file changes with StatReloader
+INFO 2023-09-28 00:00:07,086 autoreload 18852 1812 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-28 00:00:07,550 autoreload 17280 8716 Watching for file changes with StatReloader
+INFO 2023-09-28 00:00:08,055 views 17280 15344 Index page accessed
+INFO 2023-09-28 00:00:08,065 basehttp 17280 15344 "GET / HTTP/1.1" 200 13025
+INFO 2023-09-28 00:00:10,732 basehttp 17280 15344 "GET /account/login HTTP/1.1" 200 4220
+ERROR 2023-09-28 00:00:17,660 log 17280 15344 Internal Server Error: /account/login
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\account\views.py", line 15, in login_form
+    username = form.cleaned_data["username"]
+KeyError: 'username'
+ERROR 2023-09-28 00:00:17,661 basehttp 17280 15344 "POST /account/login HTTP/1.1" 500 69736
+INFO 2023-09-28 00:04:04,344 autoreload 17280 8716 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-28 00:04:04,848 autoreload 1288 1384 Watching for file changes with StatReloader
+INFO 2023-09-28 00:04:06,170 views 1288 3952 Try login: email='qwe@aw.ru', password='qwe'.
+INFO 2023-09-28 00:04:06,186 basehttp 1288 3952 "POST /account/login HTTP/1.1" 200 4249
+INFO 2023-09-28 00:04:37,723 autoreload 1288 1384 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-28 00:04:38,201 autoreload 8948 13056 Watching for file changes with StatReloader
+INFO 2023-09-28 00:04:43,169 basehttp 8948 2664 "POST /account/login HTTP/1.1" 200 4360
+INFO 2023-09-28 00:05:01,259 views 8948 2664 Try login: email='new@new.ru', password='qwerty'.
+INFO 2023-09-28 00:05:01,263 basehttp 8948 2664 "POST /account/login HTTP/1.1" 200 4243
+INFO 2023-09-28 00:05:39,253 autoreload 8948 13056 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-28 00:05:39,734 autoreload 18536 18244 Watching for file changes with StatReloader
+INFO 2023-09-28 00:06:20,825 autoreload 18536 18244 E:\pythonProject\djangoGB\account\views.py changed, reloading.
+INFO 2023-09-28 00:06:21,304 autoreload 16396 15716 Watching for file changes with StatReloader
+INFO 2023-09-28 00:07:37,843 autoreload 16396 15716 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-28 00:07:38,311 autoreload 4340 3388 Watching for file changes with StatReloader

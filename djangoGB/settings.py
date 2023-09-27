@@ -29,7 +29,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'account.apps.AccountConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -164,7 +163,3 @@ LOGGING = {
         },
     },
 }
-
-# LOGIN_REDIRECT_URL = 'dashboard'
-# LOGIN_URL = 'login'
-# LOGOUT_URL = 'logout'

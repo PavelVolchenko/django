@@ -31,7 +31,6 @@ class Product(models.Model):
                 f"|       price: {self.price}")
 
 
-
 class Order(models.Model):
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product)
