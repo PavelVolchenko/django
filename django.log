@@ -602,3 +602,355 @@ WARNING 2023-09-27 01:29:01,970 basehttp 16512 16408 "POST / HTTP/1.1" 403 3346
 INFO 2023-09-27 01:31:07,206 autoreload 6924 8820 Watching for file changes with StatReloader
 INFO 2023-09-27 01:31:08,777 views 6924 16688 Index page accessed
 INFO 2023-09-27 01:31:08,787 basehttp 6924 16688 "GET / HTTP/1.1" 200 6432
+INFO 2023-09-27 02:05:31,002 autoreload 8872 11976 Watching for file changes with StatReloader
+INFO 2023-09-27 02:05:32,305 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:05:32,321 basehttp 8872 15700 "GET / HTTP/1.1" 200 9984
+WARNING 2023-09-27 02:05:32,439 log 8872 15700 Not Found: /favicon.ico
+WARNING 2023-09-27 02:05:32,440 basehttp 8872 15700 "GET /favicon.ico HTTP/1.1" 404 2605
+INFO 2023-09-27 02:05:39,949 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:05:39,952 basehttp 8872 15700 "GET / HTTP/1.1" 200 9984
+INFO 2023-09-27 02:05:40,798 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:05:40,800 basehttp 8872 15700 "GET / HTTP/1.1" 200 9984
+DEBUG 2023-09-27 02:05:42,115 views 8872 15700 About page accessed
+INFO 2023-09-27 02:05:42,116 basehttp 8872 15700 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-27 02:05:43,145 views 8872 15700 Info page accessed
+INFO 2023-09-27 02:05:43,146 basehttp 8872 15700 "GET /info/ HTTP/1.1" 200 2991
+INFO 2023-09-27 02:05:43,933 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:05:43,936 basehttp 8872 15700 "GET / HTTP/1.1" 200 9984
+INFO 2023-09-27 02:06:33,881 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:06:33,884 basehttp 8872 15700 "GET / HTTP/1.1" 200 9984
+INFO 2023-09-27 02:06:56,631 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:06:56,635 basehttp 8872 15700 "GET / HTTP/1.1" 200 10020
+INFO 2023-09-27 02:07:06,924 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:07:06,928 basehttp 8872 15700 "GET / HTTP/1.1" 200 10020
+INFO 2023-09-27 02:07:25,600 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:07:25,604 basehttp 8872 15700 "GET / HTTP/1.1" 200 10026
+INFO 2023-09-27 02:08:19,970 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:08:19,973 basehttp 8872 15700 "GET / HTTP/1.1" 200 10068
+INFO 2023-09-27 02:09:13,739 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:09:13,743 basehttp 8872 15700 "GET / HTTP/1.1" 200 10002
+INFO 2023-09-27 02:10:27,643 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:10:27,645 basehttp 8872 15700 "GET / HTTP/1.1" 200 10002
+INFO 2023-09-27 02:10:28,526 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:10:28,529 basehttp 8872 15700 "GET / HTTP/1.1" 200 9960
+INFO 2023-09-27 02:11:16,312 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:11:16,315 basehttp 8872 15700 "GET / HTTP/1.1" 200 9960
+INFO 2023-09-27 02:11:17,560 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:11:17,563 basehttp 8872 15700 "GET / HTTP/1.1" 200 9666
+INFO 2023-09-27 02:11:27,604 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:11:27,607 basehttp 8872 15700 "GET / HTTP/1.1" 200 9666
+INFO 2023-09-27 02:11:28,495 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:11:28,500 basehttp 8872 15700 "GET / HTTP/1.1" 200 9576
+INFO 2023-09-27 02:11:45,768 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:11:45,770 basehttp 8872 15700 "GET / HTTP/1.1" 200 9576
+INFO 2023-09-27 02:11:46,535 views 8872 15700 Index page accessed
+INFO 2023-09-27 02:11:46,539 basehttp 8872 15700 "GET / HTTP/1.1" 200 9744
+INFO 2023-09-27 02:14:09,715 autoreload 8872 11976 E:\pythonProject\djangoGB\store\models.py changed, reloading.
+INFO 2023-09-27 02:14:10,203 autoreload 6440 868 Watching for file changes with StatReloader
+INFO 2023-09-27 02:14:16,312 views 6440 13920 Index page accessed
+INFO 2023-09-27 02:14:16,322 basehttp 6440 13920 "GET / HTTP/1.1" 200 9726
+DEBUG 2023-09-27 02:14:42,024 views 6440 13920 About page accessed
+INFO 2023-09-27 02:14:42,025 basehttp 6440 13920 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-27 02:14:43,363 views 6440 13920 Info page accessed
+INFO 2023-09-27 02:14:43,365 basehttp 6440 13920 "GET /info/ HTTP/1.1" 200 2991
+INFO 2023-09-27 02:14:44,066 views 6440 13920 Index page accessed
+INFO 2023-09-27 02:14:44,069 basehttp 6440 13920 "GET / HTTP/1.1" 200 9726
+INFO 2023-09-27 02:50:12,072 autoreload 7376 7548 Watching for file changes with StatReloader
+INFO 2023-09-27 02:50:13,346 views 7376 12348 Index page accessed
+INFO 2023-09-27 02:50:13,361 basehttp 7376 12348 "GET / HTTP/1.1" 200 9726
+INFO 2023-09-27 02:50:16,040 views 7376 12348 Index page accessed
+INFO 2023-09-27 02:50:16,042 basehttp 7376 12348 "GET / HTTP/1.1" 200 9726
+DEBUG 2023-09-27 02:50:17,117 views 7376 12348 About page accessed
+INFO 2023-09-27 02:50:17,119 basehttp 7376 12348 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-27 02:50:18,355 views 7376 12348 Info page accessed
+INFO 2023-09-27 02:50:18,356 basehttp 7376 12348 "GET /info/ HTTP/1.1" 200 2991
+INFO 2023-09-27 02:50:18,890 views 7376 12348 Index page accessed
+INFO 2023-09-27 02:50:18,892 basehttp 7376 12348 "GET / HTTP/1.1" 200 9726
+INFO 2023-09-27 02:52:51,273 autoreload 7376 7548 E:\pythonProject\djangoGB\store\urls.py changed, reloading.
+INFO 2023-09-27 02:52:51,738 autoreload 3688 17892 Watching for file changes with StatReloader
+INFO 2023-09-27 02:52:57,028 views 3688 6664 Index page accessed
+INFO 2023-09-27 02:52:57,040 basehttp 3688 6664 "GET / HTTP/1.1" 200 9726
+INFO 2023-09-27 02:53:00,680 basehttp 3688 6664 "GET /hello HTTP/1.1" 301 0
+INFO 2023-09-27 02:53:00,684 basehttp 3688 3172 "GET /hello/ HTTP/1.1" 200 17
+INFO 2023-09-27 03:11:33,767 autoreload 3688 17892 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:11:34,300 autoreload 11084 11604 Watching for file changes with StatReloader
+INFO 2023-09-27 03:12:23,262 autoreload 11084 11604 E:\pythonProject\djangoGB\store\urls.py changed, reloading.
+INFO 2023-09-27 03:12:23,745 autoreload 15924 15860 Watching for file changes with StatReloader
+INFO 2023-09-27 03:12:27,047 autoreload 15924 15860 E:\pythonProject\djangoGB\store\urls.py changed, reloading.
+INFO 2023-09-27 03:12:27,561 autoreload 16640 15772 Watching for file changes with StatReloader
+INFO 2023-09-27 03:13:34,105 autoreload 16640 15772 E:\pythonProject\djangoGB\store\urls.py changed, reloading.
+INFO 2023-09-27 03:13:34,580 autoreload 15936 18636 Watching for file changes with StatReloader
+WARNING 2023-09-27 03:13:36,698 log 15936 17768 Not Found: /2023
+WARNING 2023-09-27 03:13:36,699 basehttp 15936 17768 "GET /2023 HTTP/1.1" 404 3369
+INFO 2023-09-27 03:14:35,639 views 15936 17768 Index page accessed
+INFO 2023-09-27 03:14:35,648 basehttp 15936 17768 "GET / HTTP/1.1" 200 9726
+INFO 2023-09-27 03:14:36,697 views 15936 17768 Index page accessed
+INFO 2023-09-27 03:14:36,699 basehttp 15936 17768 "GET / HTTP/1.1" 200 9726
+WARNING 2023-09-27 03:14:37,248 log 15936 17768 Forbidden (CSRF cookie not set.): /
+WARNING 2023-09-27 03:14:37,249 basehttp 15936 17768 "POST / HTTP/1.1" 403 3346
+WARNING 2023-09-27 03:15:07,451 log 15936 17768 Not Found: /2023/
+WARNING 2023-09-27 03:15:07,452 basehttp 15936 17768 "GET /2023/ HTTP/1.1" 404 3372
+INFO 2023-09-27 03:15:49,012 basehttp 15936 17768 "GET /post/2023/ HTTP/1.1" 200 18
+INFO 2023-09-27 03:18:43,195 autoreload 15936 18636 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:18:43,701 autoreload 10188 10940 Watching for file changes with StatReloader
+INFO 2023-09-27 03:18:47,481 basehttp 10188 4148 "GET /post/2023/12 HTTP/1.1" 301 0
+INFO 2023-09-27 03:18:47,485 basehttp 10188 8340 "GET /post/2023/12/ HTTP/1.1" 200 21
+INFO 2023-09-27 03:21:31,150 autoreload 10188 10940 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:21:31,651 autoreload 12756 17980 Watching for file changes with StatReloader
+INFO 2023-09-27 03:21:58,136 autoreload 12756 17980 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:21:58,616 autoreload 15708 14580 Watching for file changes with StatReloader
+INFO 2023-09-27 03:23:48,902 autoreload 15708 14580 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:23:49,388 autoreload 17628 8120 Watching for file changes with StatReloader
+INFO 2023-09-27 03:24:49,672 autoreload 17628 8120 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:24:50,173 autoreload 6392 840 Watching for file changes with StatReloader
+INFO 2023-09-27 03:24:54,616 basehttp 6392 16852 "GET /post/2023/12/slug HTTP/1.1" 301 0
+INFO 2023-09-27 03:24:54,620 basehttp 6392 12284 "GET /post/2023/12/slug/ HTTP/1.1" 200 358
+INFO 2023-09-27 03:25:02,450 basehttp 6392 12284 "GET /post/2023/12/python HTTP/1.1" 301 0
+INFO 2023-09-27 03:25:02,456 basehttp 6392 17972 "GET /post/2023/12/python/ HTTP/1.1" 200 360
+INFO 2023-09-27 03:25:12,211 views 6392 17972 Index page accessed
+INFO 2023-09-27 03:25:12,220 basehttp 6392 17972 "GET / HTTP/1.1" 200 9726
+INFO 2023-09-27 03:44:11,405 autoreload 6392 840 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:44:11,932 autoreload 4400 992 Watching for file changes with StatReloader
+INFO 2023-09-27 03:44:12,834 views 4400 8832 Index page accessed
+INFO 2023-09-27 03:44:12,846 basehttp 4400 8832 "GET / HTTP/1.1" 200 9762
+DEBUG 2023-09-27 03:44:15,305 views 4400 8832 About page accessed
+INFO 2023-09-27 03:44:15,307 basehttp 4400 8832 "GET /about/ HTTP/1.1" 200 2990
+DEBUG 2023-09-27 03:44:16,513 views 4400 8832 Info page accessed
+INFO 2023-09-27 03:44:16,515 basehttp 4400 8832 "GET /info/ HTTP/1.1" 200 2991
+INFO 2023-09-27 03:44:17,332 views 4400 8832 Index page accessed
+INFO 2023-09-27 03:44:17,334 basehttp 4400 8832 "GET / HTTP/1.1" 200 9762
+INFO 2023-09-27 03:45:12,882 autoreload 4400 992 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:45:13,396 autoreload 18336 13776 Watching for file changes with StatReloader
+INFO 2023-09-27 03:45:14,423 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:45:14,481 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:45:14,483 basehttp 18336 6060 "GET / HTTP/1.1" 500 88687
+INFO 2023-09-27 03:45:46,025 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:45:46,049 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:45:46,050 basehttp 18336 6060 "GET / HTTP/1.1" 500 88824
+INFO 2023-09-27 03:45:50,769 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:45:50,793 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:45:50,794 basehttp 18336 6060 "GET / HTTP/1.1" 500 88824
+INFO 2023-09-27 03:45:54,096 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:45:54,117 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:45:54,119 basehttp 18336 6060 "GET / HTTP/1.1" 500 88692
+INFO 2023-09-27 03:46:05,556 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:46:05,580 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:46:05,582 basehttp 18336 6060 "GET / HTTP/1.1" 500 88829
+INFO 2023-09-27 03:46:07,543 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:46:07,565 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:46:07,566 basehttp 18336 6060 "GET / HTTP/1.1" 500 88692
+INFO 2023-09-27 03:47:15,917 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:47:15,940 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:47:15,942 basehttp 18336 6060 "GET / HTTP/1.1" 500 88829
+INFO 2023-09-27 03:47:18,804 views 18336 6060 Index page accessed
+ERROR 2023-09-27 03:47:18,826 log 18336 6060 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:47:18,828 basehttp 18336 6060 "GET / HTTP/1.1" 500 88692
+INFO 2023-09-27 03:48:42,377 autoreload 18336 13776 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:48:42,867 autoreload 12520 17100 Watching for file changes with StatReloader
+INFO 2023-09-27 03:48:43,635 views 12520 2888 Index page accessed
+ERROR 2023-09-27 03:48:43,673 log 12520 2888 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', product_list)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:48:43,676 basehttp 12520 2888 "GET / HTTP/1.1" 500 88712
+INFO 2023-09-27 03:49:58,259 views 12520 2888 Index page accessed
+ERROR 2023-09-27 03:49:58,283 log 12520 2888 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', **context)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+ERROR 2023-09-27 03:49:58,284 basehttp 12520 2888 "GET / HTTP/1.1" 500 88838
+INFO 2023-09-27 03:49:58,327 autoreload 12520 17100 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:49:58,883 autoreload 12156 164 Watching for file changes with StatReloader
+INFO 2023-09-27 03:49:59,868 views 12156 10708 Index page accessed
+ERROR 2023-09-27 03:49:59,900 log 12156 10708 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', **context)
+TypeError: django.shortcuts.render() argument after ** must be a mapping, not QuerySet
+ERROR 2023-09-27 03:49:59,902 basehttp 12156 10708 "GET / HTTP/1.1" 500 68940
+INFO 2023-09-27 03:50:01,290 views 12156 10708 Index page accessed
+ERROR 2023-09-27 03:50:01,309 log 12156 10708 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', **context)
+TypeError: django.shortcuts.render() argument after ** must be a mapping, not QuerySet
+ERROR 2023-09-27 03:50:01,309 basehttp 12156 10708 "GET / HTTP/1.1" 500 68803
+INFO 2023-09-27 03:50:28,505 autoreload 12156 164 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:50:29,016 autoreload 14124 1572 Watching for file changes with StatReloader
+INFO 2023-09-27 03:50:29,504 views 14124 15784 Index page accessed
+ERROR 2023-09-27 03:50:29,537 log 14124 15784 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\pythonProject\djangoGB\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonProject\djangoGB\store\views.py", line 21, in index
+    return render(request, 'store/index.html', *context)
+TypeError: render() takes from 2 to 6 positional arguments but 8 were given
+ERROR 2023-09-27 03:50:29,538 basehttp 14124 15784 "GET / HTTP/1.1" 500 68894
+INFO 2023-09-27 03:51:14,253 autoreload 14124 1572 E:\pythonProject\djangoGB\store\views.py changed, reloading.
+INFO 2023-09-27 03:51:14,726 autoreload 4820 1388 Watching for file changes with StatReloader
+INFO 2023-09-27 03:51:14,924 views 4820 11292 Index page accessed
+INFO 2023-09-27 03:51:14,936 basehttp 4820 11292 "GET / HTTP/1.1" 200 9762

@@ -20,7 +20,7 @@ class User(models.Model):
 class Product(models.Model):
     product_name = models.CharField(max_length=128)
     description = models.CharField(max_length=1024, null=True)
-    price = models.DecimalField(null=True, max_digits=8, decimal_places=2)
+    price = models.IntegerField(null=True)
     quantity = models.IntegerField(null=True)
     was_added = models.DateField(auto_now_add=True)
 
@@ -35,5 +35,5 @@ class Product(models.Model):
 class Order(models.Model):
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product)
-    total_price = models.DecimalField(max_digits=8, decimal_places=2)
+    total_price = models.IntegerField(null=True)
     date_ordered = models.DateTimeField(auto_now_add=True)

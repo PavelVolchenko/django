@@ -6,14 +6,14 @@ class Command(BaseCommand):
     help = "Get user at ID or show all users if entered ID = 0."
 
     def add_arguments(self, parser):
-        parser.add_argument('id', type=int, help='User ID')
+        parser.add_argument('pk', type=int, help='User ID')
 
     def handle(self, *args, **kwargs):
-        id = kwargs["id"]
-        if id == 0:
-            users = User.objects.all()
+        pk = kwargs["pk"]
+        if pk == 0:
+            users = User.objects.filter().all()
             for user in users:
                 self.stdout.write(f'{user}')
         else:
-            user = User.objects.get(id=id)
+            user = User.objects.filter(pk=pk).first()
             self.stdout.write(f'{user}')
