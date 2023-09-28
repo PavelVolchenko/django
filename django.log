@@ -1938,3 +1938,28 @@ INFO 2023-09-29 01:19:23,357 autoreload 4580 18276 E:\pythonProject\djangoGB\sto
 INFO 2023-09-29 01:19:23,914 autoreload 1084 11584 Watching for file changes with StatReloader
 INFO 2023-09-29 01:20:49,816 autoreload 1084 11584 E:\pythonProject\djangoGB\account\views.py changed, reloading.
 INFO 2023-09-29 01:20:50,305 autoreload 17240 12572 Watching for file changes with StatReloader
+INFO 2023-09-29 02:04:49,269 autoreload 14068 13576 Watching for file changes with StatReloader
+INFO 2023-09-29 02:04:50,321 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:04:50,337 basehttp 14068 8692 "GET / HTTP/1.1" 200 10731
+INFO 2023-09-29 02:04:51,940 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:04:51,942 basehttp 14068 8692 "GET / HTTP/1.1" 200 10731
+DEBUG 2023-09-29 02:04:52,852 views 14068 8692 About page accessed
+INFO 2023-09-29 02:04:52,854 basehttp 14068 8692 "GET /about/ HTTP/1.1" 200 2940
+INFO 2023-09-29 02:04:53,763 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:04:53,766 basehttp 14068 8692 "GET / HTTP/1.1" 200 10731
+INFO 2023-09-29 02:04:55,092 basehttp 14068 8692 "GET /account/login/ HTTP/1.1" 200 3630
+INFO 2023-09-29 02:05:07,135 views 14068 8692 Try login: email='test@test.ru', password='test'.
+INFO 2023-09-29 02:05:07,138 views 14068 8692 Login successful
+INFO 2023-09-29 02:05:07,152 basehttp 14068 8692 "POST /account/login/ HTTP/1.1" 200 3717
+INFO 2023-09-29 02:05:09,071 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:05:09,075 basehttp 14068 8692 "GET / HTTP/1.1" 200 10796
+INFO 2023-09-29 02:05:09,576 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:05:09,579 basehttp 14068 8692 "GET / HTTP/1.1" 200 10796
+INFO 2023-09-29 02:05:17,054 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:05:17,058 basehttp 14068 8692 "GET / HTTP/1.1" 200 10796
+INFO 2023-09-29 02:05:17,736 basehttp 14068 8692 "GET /account/logout/ HTTP/1.1" 200 3029
+INFO 2023-09-29 02:05:19,137 basehttp 14068 8692 "GET /account/login/ HTTP/1.1" 200 3630
+INFO 2023-09-29 02:05:19,754 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:05:19,757 basehttp 14068 8692 "GET / HTTP/1.1" 200 10731
+INFO 2023-09-29 02:05:20,055 views 14068 8692 Index page accessed
+INFO 2023-09-29 02:05:20,057 basehttp 14068 8692 "GET / HTTP/1.1" 200 10731
