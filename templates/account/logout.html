@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Logged out
+{% endblock %}
+
+{% block content %}
+  <div class="container p-4 col-md-6">
+    <div class="col p-4 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+      <h1>Logged out</h1>
+      <p>
+        You have been successfully logged out.
+        You can <a href="{% url "login_form" %}">log-in again</a>.
+      </p>
+    </div>
+  </div>
+{% endblock %}

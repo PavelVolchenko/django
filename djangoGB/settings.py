@@ -163,3 +163,6 @@ LOGGING = {
         },
     },
 }
+AUTH_USER_MODEL = "store.User"
+LOGIN_REDIRECT_URL = 'login'
+LOGOUT_REDIRECT_URL = 'logout'

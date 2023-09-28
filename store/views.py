@@ -15,6 +15,7 @@ class MonthPost(View):
         text = ""
         return HttpResponse(f"Post from {month}/{year}<br>{text}")
 
+
 def index(request):
     logger.info('Index page accessed')
     context = Product.objects.all()
