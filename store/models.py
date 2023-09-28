@@ -1,13 +1,16 @@
 from django.db import models
+from django.contrib.auth.base_user import AbstractBaseUser
 
 
-class User(models.Model):
+# class User(models.Model):
+class User(AbstractBaseUser):
     username = models.CharField(max_length=36)
-    email = models.EmailField(unique=False)
+    email = models.EmailField(unique=True)
     password = models.CharField(max_length=256)
     phone_number = models.CharField(max_length=16, null=True)
     address = models.CharField(max_length=256, null=True)
     registered = models.DateField(auto_now_add=True)
+    USERNAME_FIELD = "email"
 
     def __str__(self):
         return (f"+---------------------------------------"
@@ -29,7 +32,6 @@ class Product(models.Model):
                 f"\n|        name: {self.product_name}\n"
                 f"| description: {self.description}\n"
                 f"|       price: {self.price}")
-
 
 
 class Order(models.Model):
