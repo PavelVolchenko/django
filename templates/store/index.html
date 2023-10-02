@@ -1,40 +1,34 @@
 {% extends 'base.html' %}
-
+{% load static %}
 
 {% block content %}
-    <div class="container p-2">
-        <div class="row row-cols-2">
-            {% for product in context %}
-                <div class="col p-2">
-                    <div class="card h-100 text-bg-light">
-                        <div class="card-header">
-                            <h5 class="card-title">{{ product.product_name }}</h5>
-                        </div>
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img class="img-fluid rounded-start"
-                                     src="/static/store/image/plate-640x480.jpg" alt="plate">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <p class="card-text">{{ product.description }}</p>
-                                    <p class="card-text text-primary fs-3">{{ product.price }} р.</p>
-                                </div>
-                            </div>
-                            <div class="card-footer d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="" class="btn btn-success btn-sm">Подробнее</a>
-                                {#                {% if request.cookies.get("username") %}#}
-                                <form>
-                                    <button type="submit" formmethod="POST" class="btn btn-success btn-sm"
-                                            formaction="">Заказать
-                                    </button>
-                                </form>
-                                {#                {% endif %}#}
-                            </div>
-                        </div>
-                    </div>
+  <div class="container p-4">
+    <div class="row row-cols">
+      {% for product in context %}
+        <div class="col-6 col-md-4 col-xl-3 p-2">
+          <div class="card h-100 text-bg-light">
+            <div class="card-header">
+              {#              <h5 class="card-title">{{ product.product_name }}</h5>#}
+              <img class="img-fluid rounded-3" src="{% static "store/image/plate-640x480.jpg" %}" alt="plate">
+            </div>
+            <div class="row g-0">
+              <div class="col">
+                <div class="card-body bg-emphasis-color">
+
+                  <p class="card-text text-start fs-5">{{ product.product_name }}</p>
+                  <p class="card-text">{{ product.description }}</p>
+
                 </div>
-            {% endfor %}
+              </div>
+              <div class="card-footer d-flex gap-2 justify-content-md-end">
+{#                <a href="{% url 'add_to_cart' product.product_id %}" type="submit" class="btn btn-outline-success fs-5"#}
+                <a href="{{ object.get_absolute_url }}" class="btn btn-outline-success fs-5"
+                {% if not user.is_authenticated %}disabled{% endif %}>{{ product.product_name }}</a>{{ product.price }}р.
+              </div>
+            </div>
+          </div>
         </div>
+      {% endfor %}
     </div>
+  </div>
 {% endblock %}

@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="ru" data-bs-theme="light">
 
@@ -16,27 +18,34 @@
 {% block header %}
   <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient" aria-label="Fourth navbar example">
     <div class="container-fluid">
-      <a class="navbar-brand ps-4" href="{% url 'index' %}">ArtCentre</a>
+      <a class="navbar-brand ps-4" href="{% url 'store:index' %}">ArtCentre</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
               aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse ps-4" id="navbarsExample04">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Главная</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Еще...</a>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'store:index' %}">Главная</a></li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                           aria-expanded="false">Еще...</a>
             <ul class="dropdown-menu" data-bs-theme="dark">
-              <li><a class="dropdown-item" href="{% url 'about' %}">Контакты</a></li>
-              <li><a class="dropdown-item" href="{% url 'info' %}">Информация</a></li>
+              <li><a class="dropdown-item" href="{% url 'store:about' %}">Контакты</a></li>
+              <li><a class="dropdown-item" href="{% url 'store:info' %}">Информация</a></li>
             </ul>
           </li>
         </ul>
         {% if user.is_authenticated %}
-          <div class="d-flex pe-4 text-white"><strong>Login: {{ user.username.upper }}</strong></div>
-          <a href="" class="btn btn-sm btn-success me-4">Список заказов</a>
+          <div class="d-flex pe-4 text-white"><strong>{{ user.username.upper }}</strong></div>
+          <a href="#" class="btn btn-sm btn-success me-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                 class="bi bi-basket3" viewBox="0 0 20 20">
+              <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1
+                .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1
+                .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0
+                .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z"></path>
+            </svg>
+            Корзина</a>
+          <a href="#" class="btn btn-sm btn-success me-2">История заказов</a>
           <a href="{% url 'logout_user' %}" class="btn btn-sm btn-success me-4">Выйти</a>
         {% else %}
           <a href="{% url 'login_form' %}" class="btn btn-sm btn-success me-4">Войти</a>
@@ -56,11 +65,11 @@
   <div class="container">
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="{% url 'index' %}" class="nav-link px-2 text-body-secondary">Главная</a>
+        <li class="nav-item"><a href="{% url 'store:index' %}" class="nav-link px-2 text-body-secondary">Главная</a>
         </li>
-        <li class="nav-item"><a href="{% url 'info' %}" class="nav-link px-2 text-body-secondary">Информация</a>
+        <li class="nav-item"><a href="{% url 'store:info' %}" class="nav-link px-2 text-body-secondary">Информация</a>
         </li>
-        <li class="nav-item"><a href="{% url 'about' %}" class="nav-link px-2 text-body-secondary">Контакты</a>
+        <li class="nav-item"><a href="{% url 'store:about' %}" class="nav-link px-2 text-body-secondary">Контакты</a>
         </li>
       </ul>
       <p class="text-center text-body-secondary">© 2023 Developer, Pavel Volchenko</p>

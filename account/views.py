@@ -1,29 +1,28 @@
-import logging
 from django.shortcuts import render
+from django.contrib.auth import login, logout
 from django.core.files.storage import FileSystemStorage
-
+import logging
 import account.views
 from .forms import RegistrationForm, LoginForm, ManyFieldsForm, ManyFieldsFormWidget, ImageForm
 from store.models import User
 
-from django.contrib.auth import login, logout
-
 logger = logging.getLogger(__name__)
+
 
 def login_form(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
         message = "Error input data"
         if form.is_valid():
-            email = form.cleaned_data["email"]
+            username = form.cleaned_data["name"].lower()
             password = form.cleaned_data["password"]
             # Совершаем операции с данными
-            logger.info(f"Try login: {email=}, {password=}.")
-            user = User.objects.filter(email=email).first()
+            logger.info(f"Try login: {username=}, {password=}.")
+            user = User.objects.filter(username=username).first()
             if not user or password != user.password:
                 logger.info(f"Login failed")
                 form = LoginForm()
-                message = "Password or email is incorrect"
+                message = "Password or username is incorrect"
             else:
                 logger.info(f"Login successful")
                 login(request, user)
@@ -44,7 +43,7 @@ def registration_form(request):
         form = RegistrationForm(request.POST)
         message = "Error input data"
         if form.is_valid():
-            username = form.cleaned_data["name"]
+            username = form.cleaned_data["name"].lower()
             email = form.cleaned_data["email"]
             password = form.cleaned_data["password"]
             if password != form.cleaned_data["password_repeat"]:

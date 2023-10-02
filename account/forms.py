@@ -25,9 +25,9 @@ class RegistrationForm(forms.Form):
     #     return email
 
 class LoginForm(forms.Form):
-    email = forms.EmailField(widget=forms.EmailInput(attrs={
+    name = forms.CharField(widget=forms.TextInput(attrs={
         "class": "form-control",
-        "placeholder": "user@mail.com",
+        "placeholder": "username",
     }))
     password = forms.CharField(widget=forms.PasswordInput(attrs={
         "class": "form-control",
