@@ -25,7 +25,7 @@ class Product(models.Model):
     product_name = models.CharField(max_length=128)
     description = models.CharField(max_length=1024, null=True)
     price = models.IntegerField(null=True)
-    quantity = models.IntegerField(null=True)
+    quantity = models.IntegerField(default=0)
     was_added = models.DateField(auto_now_add=True)
 
     def __str__(self):
@@ -50,11 +50,11 @@ class Order(models.Model):
 
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product)
-    total_price = models.IntegerField(null=True)
-    date_ordered = models.DateTimeField(auto_now_add=False)
+    total_price = models.IntegerField(default=0)
+    date_ordered = models.DateField(auto_now_add=True)
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.BASKET)
 
-    object = models.Manager()  # менеджер по умолчанию
+    objects = models.Manager()  # менеджер по умолчанию
     completed = CompletedOrderManager()  # конкретно-прикладной менеджер
 
     class Meta:
@@ -62,6 +62,3 @@ class Order(models.Model):
         indexes = [
             models.Index(fields=['-date_ordered'])  # индексация в убывающем порядке
         ]
-
-    # def __str__(self):
-    #     return self.customer

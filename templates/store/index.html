@@ -8,7 +8,6 @@
         <div class="col-6 col-md-4 col-xl-3 p-2">
           <div class="card h-100 text-bg-light">
             <div class="card-header">
-              {#              <h5 class="card-title">{{ product.product_name }}</h5>#}
               <img class="img-fluid rounded-3" src="{% static "store/image/plate-640x480.jpg" %}" alt="plate">
             </div>
             <div class="row g-0">
@@ -21,9 +20,10 @@
                 </div>
               </div>
               <div class="card-footer d-flex gap-2 justify-content-md-end">
-{#                <a href="{% url 'add_to_cart' product.product_id %}" type="submit" class="btn btn-outline-success fs-5"#}
-                <a href="{{ object.get_absolute_url }}" class="btn btn-outline-success fs-5"
-                {% if not user.is_authenticated %}disabled{% endif %}>{{ product.product_name }}</a>{{ product.price }}р.
+              <form method="post">
+                <button formaction="{{ object.get_absolute_url }}{{ product.id }}/" class="btn btn-outline-success fs-5"
+                {% if not user.is_authenticated %}disabled{% endif %}>{{ product.price }}р.</button>
+              </form>
               </div>
             </div>
           </div>

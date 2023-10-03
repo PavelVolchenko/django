@@ -36,7 +36,7 @@
         </ul>
         {% if user.is_authenticated %}
           <div class="d-flex pe-4 text-white"><strong>{{ user.username.upper }}</strong></div>
-          <a href="#" class="btn btn-sm btn-success me-2">
+          <a href="{% url 'store:basket' %}" class="btn btn-sm btn-success me-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                  class="bi bi-basket3" viewBox="0 0 20 20">
               <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1
@@ -45,7 +45,7 @@
                 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z"></path>
             </svg>
             Корзина</a>
-          <a href="#" class="btn btn-sm btn-success me-2">История заказов</a>
+          <a href="{% url 'store:order_list' %}" class="btn btn-sm btn-success me-2">История заказов</a>
           <a href="{% url 'logout_user' %}" class="btn btn-sm btn-success me-4">Выйти</a>
         {% else %}
           <a href="{% url 'login_form' %}" class="btn btn-sm btn-success me-4">Войти</a>
