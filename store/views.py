@@ -1,62 +1,71 @@
 import logging
 from django.http import HttpResponse, JsonResponse, Http404
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.views.decorators.csrf import csrf_exempt
 from django.views import View
-from .models import Product, Order
+from .models import Product, Order, User, OrderProductCount
 
 logger = logging.getLogger(__name__)
 
 
 def basket(request):
-    order = Order.objects.filter(status='BS', customer=request.user.pk)
-    print(order[0].products.values_list())
-    return render(request, 'order/basket.html', {'order': order[0].products.values_list(), "total_price": order[0].total_price})
-
-
-@csrf_exempt
-def add_to_cart(request, id):
-    if request.method == 'POST':
-        logger.info(f"Try add to cart product: {id=}")
-        order = Order.objects.filter(status="BS", customer=request.user.pk).first()
-        if not order:
-            order = Order.objects.create(customer=request.user)
-        logger.info(f"Found uncompleted order: {order=}")
-        product = Product.objects.filter(pk=id).first()
-        order.products.add(id)
-        order.total_price = order.total_price + product.price
-        product.quantity = product.quantity + 1
-        product.save()
-        order.save()
-    return render(request, 'store/index.html')
+    try:
+        order = Order.objects.filter(status='BS', customer=request.user.pk)
+        count_of_items = OrderProductCount.objects.filter(order_id=order[0].pk)
+        context = list()
+        for i, k in enumerate(order[0].products.values_list()):
+            context.append(list(k).copy())
+            context[-1].append(count_of_items[i].count)
+        return render(request, 'order/basket.html', {
+            'context': context,
+            # "total_price": order[0].total_price
+            "order": order[0],
+            'msg': "Корзина покупок",
+        })
+    except:
+        return render(request, 'order/basket.html',
+                      {'msg': "Корзина пуста. Для совершения покупок перейдите на главную страницу"})
 
 
 def order_list(request):
     orders = Order.completed.all()
-    logger.info(f"Showing {len(orders)} completed orders for user: {request.user.username}")
+    logger.info(f"Found {len(orders)} completed orders for user: {request.user.username}")
     return render(request, 'order/list.html', {'orders': orders.values_list()})
 
 
-def order_detail(request, id):
-    order = get_object_or_404(Order, id=id, status=Order.Status.COMPLETED)
-    return render(request, 'order/detail.html', {'order': order})
+def order_detail(request, order_id):
+    if request.method == 'POST':
+        order = Order.objects.filter(pk=order_id)[0]
+        print(order)
+        order.status = 'CP'
+        order.save()
+        return render(request, 'order/detail.html', {'msg': "Заказ передан на оформление."})
+    order = get_object_or_404(Order, id=order_id, status=Order.Status.COMPLETED)
+    return render(request, 'order/detail.html',
+                  {'order': order},
+                  {'msg': "История заказов."})
 
 
-class HelloView(View):
-    def get(self, request):
-        return HttpResponse("Hello from class!")
-
-
-class MonthPost(View):
-    def get(self, request, year, month):
-        text = ""
-        return HttpResponse(f"Post from {month}/{year}<br>{text}")
-
-
-def index(request):
-    logger.info('Index page accessed')
+@csrf_exempt
+def index(request, id=None):
     context = Product.objects.all()
+    if request.method == 'POST':
+        add_to_cart(id, request.user.pk)
     return render(request, 'store/index.html', {"context": context})
+
+
+def add_to_cart(product_id, user_pk):
+    order = Order.objects.filter(status="BS", customer_id=user_pk).first()
+    if not order:
+        order = Order.objects.create(customer_id=user_pk)
+    logger.info(f"Found uncompleted order: # {order.pk}")
+    product = Product.objects.get(id=product_id)
+    order.total_price += product.price
+    order.save()
+    product.order_products.add(order)
+    k = OrderProductCount.objects.filter(order_id=order.pk, products_id=product_id).first()
+    k.count += 1
+    k.save()
 
 
 def about(request):
@@ -84,3 +93,14 @@ def post_detail(request, year, month, slug):
                    "какой способ создания списков в Python работает быстрее...",
     }
     return JsonResponse(post, json_dumps_params={'ensure_ascii': False})
+
+
+class HelloView(View):
+    def get(self, request):
+        return HttpResponse("Hello from class!")
+
+
+class MonthPost(View):
+    def get(self, request, year, month):
+        text = ""
+        return HttpResponse(f"Post from {month}/{year}<br>{text}")

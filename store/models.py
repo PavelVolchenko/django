@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.base_user import AbstractBaseUser
 
 
-# class User(models.Model):
 class User(AbstractBaseUser):
     username = models.CharField(max_length=36, unique=True)
     email = models.EmailField(blank=True)
@@ -13,9 +12,7 @@ class User(AbstractBaseUser):
     USERNAME_FIELD = "username"
 
     def __str__(self):
-        return (f""
-                # f"+---------------------------------------"
-                f"\n| username: {self.username}\n"
+        return (f"\n| username: {self.username}\n"
                 f"|    email: {self.email}\n"
                 f"|    phone: {self.phone_number}\n"
                 f"|  address: {self.address}")
@@ -29,9 +26,7 @@ class Product(models.Model):
     was_added = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return (f""
-                # f"+---------------------------------------"
-                f"\n|        name: {self.product_name}\n"
+        return (f"\n|        name: {self.product_name}\n"
                 f"| description: {self.description}\n"
                 f"|       price: {self.price}")
 
@@ -39,9 +34,11 @@ class Product(models.Model):
         from django.urls import reverse
         return reverse('store.views.add_to_cart', args=[str(self.id)])
 
+
 class CompletedOrderManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(status=Order.Status.COMPLETED)
+
 
 class Order(models.Model):
     class Status(models.TextChoices):
@@ -49,7 +46,7 @@ class Order(models.Model):
         COMPLETED = 'CP', 'Completed'
 
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
-    products = models.ManyToManyField(Product)
+    products = models.ManyToManyField(Product, related_name='order_products', through='OrderProductCount')
     total_price = models.IntegerField(default=0)
     date_ordered = models.DateField(auto_now_add=True)
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.BASKET)
@@ -62,3 +59,8 @@ class Order(models.Model):
         indexes = [
             models.Index(fields=['-date_ordered'])  # индексация в убывающем порядке
         ]
+
+class OrderProductCount(models.Model):
+    order = models.ForeignKey(Order, on_delete=models.CASCADE)
+    products = models.ForeignKey(Product, on_delete=models.CASCADE)
+    count = models.IntegerField(default=0)
