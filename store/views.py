@@ -4,6 +4,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.views.decorators.csrf import csrf_exempt
 from django.views import View
 from .models import Product, Order, User, OrderProductCount
+from datetime import date
 
 logger = logging.getLogger(__name__)
 
@@ -18,19 +19,30 @@ def basket(request):
             context[-1].append(count_of_items[i].count)
         return render(request, 'order/basket.html', {
             'context': context,
-            # "total_price": order[0].total_price
             "order": order[0],
             'msg': "Корзина покупок",
         })
     except:
         return render(request, 'order/basket.html',
-                      {'msg': "Корзина пуста. Для совершения покупок перейдите на главную страницу"})
+                      {'msg': "Корзина пуста. Для совершения покупок перейдите на главную страницу."})
 
 
 def order_list(request):
-    orders = Order.completed.all()
-    logger.info(f"Found {len(orders)} completed orders for user: {request.user.username}")
-    return render(request, 'order/list.html', {'orders': orders.values_list()})
+    orders = Order.objects.filter(status='CP', customer=request.user.pk)
+    order_list = [
+        {
+            "id": order.id,
+            "date": order.date_ordered,
+            "total_price": order.total_price,
+            "products": [
+                [
+                    item.products.product_name,
+                    item.count,
+                    item.products.price,
+                ] for item in OrderProductCount.objects.filter(order_id=order.pk)],
+        } for order in orders]
+
+    return render(request, 'order/list.html', {'orders': order_list})
 
 
 def order_detail(request, order_id):
@@ -38,6 +50,8 @@ def order_detail(request, order_id):
         order = Order.objects.filter(pk=order_id)[0]
         print(order)
         order.status = 'CP'
+        order.date_ordered = date.today()
+        print(order.date_ordered)
         order.save()
         return render(request, 'order/detail.html', {'msg': "Заказ передан на оформление."})
     order = get_object_or_404(Order, id=order_id, status=Order.Status.COMPLETED)

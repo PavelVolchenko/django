@@ -9,7 +9,6 @@ urlpatterns = [
     path('<int:id>', views.index, name='index'),
     path('about/', views.about, name='about'),
     path('info/', views.info, name='info'),
-    # path('<int:id>/', views.add_to_cart, name='add_to_cart'),
     path('order/<int:order_id>/', views.order_detail, name='order_detail'),
     path('order/', views.order_list, name='order_list'),
     path('basket/', views.basket, name='basket'),
