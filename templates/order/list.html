@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="p-4 col-md-3">
+        <h4>Заказы за последние:</h4>
+        <p><a href="{% url 'store:order_list' 7  %}" class="btn btn-success w-75">7 дней</a></p>
+        <p><a href="{% url 'store:order_list' 30  %}" class="btn btn-success w-75">30 дней</a></p>
+        <p><a href="{% url 'store:order_list' 365  %}" class="btn btn-success w-75">365 дней</a></p>
+        <p><a href="{% url 'store:order_list'  %}" class="btn btn-success w-75">Все</a></p>
+      </div>
+      <div class="p-4 col-md-9">
+        {% for order in orders %}
+          <table class="table table-striped text-center p-4 table-hover table-bordered">
+            <thead>
+            <tr class="table-dark fs-5">
+              <th scope="col">Заказ №{{ order.id }}</th>
+              <th scope="col">Общая сумма {{ order.total_price }} руб.</th>
+              <th scope="col">Дата {{ order.date }}</th>
+            </tr>
+            </thead>
+            <thead class="table-success">
+            <tr>
+              <th scope="col">Название</th>
+              <th scope="col">Цена</th>
+              <th scope="col">Количество</th>
+            </tr>
+            </thead>
+            {% for item in order.products %}
+              <tr>
+                <td>{{ item.0 }}</td>
+                <td>{{ item.2 }} руб.</td>
+                <td>{{ item.1 }}</td>
+              </tr>
+            {% endfor %}
+          </table>
+          <br>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Корзина покупок{% endblock %}
+
+
+{% block content %}
+  <div class="container p-4">
+    <div class="col p-4 m-4 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+      <p class="text-center fs-4">{{ msg }}</p>
+    </div>
+    {% if order %}
+      <table class="table table-striped text-center">
+        <thead>
+        <tr class="table-dark">
+          <th scope="col">Товар</th>
+          <th scope="col">Описание</th>
+          <th scope="col">Цена</th>
+          <th scope="col">Кол-во</th>
+          <th scope="col">Действие</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for product in context %}
+          <tr>
+            <td>{{ product.1 }}</td>
+            <td>{{ product.2 }}</td>
+            <td>{{ product.3 }} руб.</td>
+            <td>{{ product.6 }}</td>
+            <td>
+              <button class="btn btn-sm btn-success" disabled>Удалить</button>
+            </td>
+          </tr>
+        {% endfor %}
+        <tr class="table-dark">
+          <td class="text fs-5" colspan="3">Общая стоимость:</td>
+          <td class="text fs-5">{{ order.total_price }} руб.</td>
+          <td>
+            <form method="post">
+              {% csrf_token %}
+              <button formaction="{% url 'store:order_detail' order.pk %}" class="btn btn-sm btn-success">Оформить
+              </button>
+            </form>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    {% endif %}
+  </div>
+{% endblock %}
