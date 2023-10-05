@@ -13,9 +13,7 @@ class User(AbstractBaseUser):
 
     def __str__(self):
         return (f"\n| username: {self.username}\n"
-                f"|    email: {self.email}\n"
-                f"|    phone: {self.phone_number}\n"
-                f"|  address: {self.address}")
+                f"|    email: {self.email}\n")
 
 
 class Product(models.Model):

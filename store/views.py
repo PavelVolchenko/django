@@ -1,10 +1,9 @@
 import logging
 from django.http import HttpResponse, JsonResponse, Http404
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, get_object_or_404
 from django.views.decorators.csrf import csrf_exempt
-from django.views import View
 from .models import Product, Order, User, OrderProductCount
-from datetime import date
+from datetime import date, timedelta
 
 logger = logging.getLogger(__name__)
 
@@ -12,36 +11,35 @@ logger = logging.getLogger(__name__)
 def basket(request):
     try:
         order = Order.objects.filter(status='BS', customer=request.user.pk)
+        print(order)
         count_of_items = OrderProductCount.objects.filter(order_id=order[0].pk)
+        print(count_of_items)
         context = list()
-        for i, k in enumerate(order[0].products.values_list()):
-            context.append(list(k).copy())
+        for i, v in enumerate(order[0].products.values_list()):
+            context.append(list(v).copy())
             context[-1].append(count_of_items[i].count)
-        return render(request, 'order/basket.html', {
-            'context': context,
-            "order": order[0],
-            'msg': "Корзина покупок",
-        })
+        print(context)
+        return render(request, 'order/basket.html', {'context': context, "order": order[0], 'msg': "Корзина покупок"})
     except:
         return render(request, 'order/basket.html',
                       {'msg': "Корзина пуста. Для совершения покупок перейдите на главную страницу."})
 
 
-def order_list(request):
-    orders = Order.objects.filter(status='CP', customer=request.user.pk)
-    order_list = [
-        {
-            "id": order.id,
-            "date": order.date_ordered,
-            "total_price": order.total_price,
-            "products": [
-                [
-                    item.products.product_name,
-                    item.count,
-                    item.products.price,
-                ] for item in OrderProductCount.objects.filter(order_id=order.pk)],
-        } for order in orders]
-
+def order_list(request, days=None):
+    if days:
+        orders = Order.objects.filter(status='CP', customer=request.user.pk,
+                                      date_ordered__gte=date.today() - timedelta(days=days))
+    else:
+        orders = Order.objects.filter(status='CP', customer=request.user.pk)
+    order_list = [{"id": order.id,
+                   "date": order.date_ordered,
+                   "total_price": order.total_price,
+                   "products": [[
+                       item.products.product_name,
+                       item.count,
+                       item.products.price,
+                   ] for item in OrderProductCount.objects.filter(order_id=order.pk)],
+                   } for order in orders]
     return render(request, 'order/list.html', {'orders': order_list})
 
 
@@ -90,31 +88,3 @@ def about(request):
 def info(request):
     logger.debug('Info page accessed')
     return render(request, 'store/info.html')
-
-
-def year_post(request, year):
-    text = ""
-    return HttpResponse(f"Post from {year}<br>{text}")
-
-
-def post_detail(request, year, month, slug):
-    post = {
-        "year": year,
-        "month": month,
-        "slug": slug,
-        "title": "Кто быстрее создаёт списки в Python, list() или[]",
-        "content": "В процессе написания очередной программы задумался над тем, "
-                   "какой способ создания списков в Python работает быстрее...",
-    }
-    return JsonResponse(post, json_dumps_params={'ensure_ascii': False})
-
-
-class HelloView(View):
-    def get(self, request):
-        return HttpResponse("Hello from class!")
-
-
-class MonthPost(View):
-    def get(self, request, year, month):
-        text = ""
-        return HttpResponse(f"Post from {month}/{year}<br>{text}")

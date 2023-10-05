@@ -1,5 +1,4 @@
 from django.urls import path
-# from .views import login_form, many_fields_form, registration_form, upload_image, logout_user
 from . import views
 
 urlpatterns = [

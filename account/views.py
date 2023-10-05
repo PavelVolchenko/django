@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from django.contrib.auth import login, logout
 from django.core.files.storage import FileSystemStorage
-import logging
-import account.views
 from .forms import RegistrationForm, LoginForm, ManyFieldsForm, ManyFieldsFormWidget, ImageForm
 from store.models import User
+import account.views
+import logging
 
 logger = logging.getLogger(__name__)
 
@@ -16,7 +16,6 @@ def login_form(request):
         if form.is_valid():
             username = form.cleaned_data["name"].lower()
             password = form.cleaned_data["password"]
-            # Совершаем операции с данными
             logger.info(f"Try login: {username=}, {password=}.")
             user = User.objects.filter(username=username).first()
             if not user or password != user.password:
@@ -50,7 +49,6 @@ def registration_form(request):
                 form = RegistrationForm()
                 message = "Passwords don't match"
             else:
-                # Совершаем операции с данными
                 logger.info(f"Registration new user: {username=}, {email=}, {password=}.")
                 user = User(username=username, email=email, password=password)
                 user.save()
@@ -78,7 +76,6 @@ def many_fields_form(request):
     if request.method == 'POST':
         form = ManyFieldsFormWidget(request.POST)
         if form.is_valid():
-            # Совершаем операции с данными
             logger.info(f"Take {form.cleaned_data=}.")
     else:
         form = ManyFieldsFormWidget()
