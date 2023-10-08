@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6 p-2">
+        <div class="card h-100">
+          <img class="img-fluid" src="{% if product.image %}{{ product.image.url }}{% else %}
+                                    {% static "store/image/plate-640x480.jpg" %}{% endif %}" alt="">
+          <div class="card-body">
+            <h5 class="card-text">{{ product.product_name }}</h5>
+            <p class="card-text">{{ product.description }}</p>
+          </div>
+          <div class="card-footer d-flex justify-content-md-end">
+            <form action="{% url 'store:index' product.id %}" method="POST">
+              <input class="btn btn-outline-success fs-5 disabled"
+                     type="submit" value="{{ product.price }} руб.">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-6 p-2">
+        <div class="card text-bg-light">
+          <div class="card-body">
+            <form method="POST" action="{% url 'store:product-edit' product.id %}">
+              {% csrf_token %}
+              {{ form.as_p }}
+              <input class="btn btn-outline-success fs-5" type="submit" value="Изменить">
+              <a class="btn btn-outline-success fs-5 ms-2"
+                 href="{% url 'store:product-detail' product.id %}">Отмена</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+<form method="post" enctype="multipart/form-data">
+
+</form>

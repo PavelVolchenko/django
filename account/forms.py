@@ -1,7 +1,6 @@
 from django import forms
 import datetime
 
-
 class RegistrationForm(forms.Form):
     name = forms.CharField(min_length=3, max_length=32, widget=forms.TextInput(attrs={
         'class': 'form-control',
@@ -62,4 +61,19 @@ class ManyFieldsFormWidget(forms.Form):
     }))
     message = forms.CharField(widget=forms.Textarea(attrs={
         "class": "form-control",
+    }))
+
+
+class ProductForm(forms.Form):
+    name = forms.CharField(max_length=128, widget=forms.TextInput(attrs={
+        "class": "form-control",
+        "placeholder": "",
+    }))
+    description = forms.CharField(widget=forms.Textarea(attrs={
+        "class": "form-control",
+        "placeholder": "",
+    }))
+    price = forms.IntegerField(widget=forms.NumberInput(attrs={
+        "class": "form-control",
+        "placeholder": "",
     }))

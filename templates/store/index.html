@@ -2,32 +2,131 @@
 {% load static %}
 
 
+
+
 {% block content %}
   <div class="container p-4">
     <div class="row row-cols">
       {% for product in context %}
         <div class="col-6 col-md-4 col-xl-3 p-2">
           <div class="card h-100 text-bg-light">
-            <div class="card-header">
-              <img class="img-fluid rounded-3" src="{% static "store/image/plate-640x480.jpg" %}" alt="plate">
+            <a href="{% url 'store:product-detail' product.id %}">
+              <img class="img-fluid rounded-3" src="{{ product.image.url }}" alt=""></a>
+{#          {{ product.image.width }}#}
+{#          {{ product.image.height }}#}
+            <div class="card-body">
+              <h5 class="card-text">{{ product.product_name }}</h5>
+              <p class="card-text">{{ product.description }}</p>
             </div>
-            <div class="row g-0">
-              <div class="col">
-                <div class="card-body bg-emphasis-color">
-                  <p class="card-text text-start fs-5">{{ product.product_name }}</p>
-                  <p class="card-text">{{ product.description }}</p>
-                </div>
-              </div>
-              <div class="card-footer d-flex gap-2 justify-content-md-end">
-                <form action="{% url 'store:index' product.id %}" method="post">
-                  <input class="btn btn-outline-success fs-5 {% if not user.is_authenticated %}disabled{% endif %}"
-                         type="submit" value="{{ product.price }} руб.">
-                </form>
-              </div>
-            </div>
-          </div>
+          <div class="card-footer d-flex justify-content-md-end">
+            <form action="{% url 'store:index' product.id %}" method="POST">
+              <input class="btn btn-outline-success fs-5 {% if not user.is_authenticated %}disabled{% endif %}"
+                     type="submit" value="{{ product.price }} руб.">
+            </form>          </div>
+
+        </div>
         </div>
       {% endfor %}
-    </div>
+  </div>
   </div>
 {% endblock %}
+
+
+
+{##}
+{##}
+{##}
+{#{% block content %}#}
+{#  <div class="container p-4">#}
+{#    <div class="row row-cols">#}
+{#      {% for product in context %}#}
+{#        <div class="col-4 p-2">#}
+{#        {% if product.image.width > product.image.height %}#}
+{#          <div class="card h-100 text-bg-light">#}
+{#            <div class="card-header">#}
+{#              <h5 class="card-title">{{ product.product_name }}</h5>#}
+{#            </div>#}
+{#            <a href="{% url 'store:product-detail' product.id %}">#}
+{#              <img class="img-fluid rounded-3" src="{{ product.image.url }}" alt=""></a>#}
+{#            <div class="card-body">#}
+{#              <p class="card-text">{{ product.description }}</p>#}
+{#            </div>#}
+{#        <div class="{% if product.image.width > product.image.height %}col-6{% else %}col-4{% endif %} p-2">#}
+{#          <div class="card-footer d-flex justify-content-md-end">#}
+{#            <form action="{% url 'store:index' product.id %}" method="POST">#}
+{#          H:{{ product.image.height }}#}
+{#          W:{{ product.image.width }}#}
+{#              <input class="btn btn-outline-success fs-5 {% if not user.is_authenticated %}disabled{% endif %}"#}
+{#                     type="submit" value="{{ product.price }} руб.">#}
+{#            </form>#}
+{#          </div>#}
+{#        </div>#}
+{#          {% else %}#}
+{#          <div class="card mb-3 h-100 text-bg-light">#}
+{#          <div class="card-header">#}
+{#              <h5 class="card-title">{{ product.product_name }}</h5>#}
+{#          </div>#}
+{#          <div class="row g-0">#}
+{#          <div class="col-md-8">#}
+{#            <a href="{% url 'store:product-detail' product.id %}">#}
+{#              <img class="img-fluid rounded-start" src="{{ product.image.url }}" alt="">#}
+{#            </a>#}
+{#          </div>#}
+{#            <div class="col-md-4">#}
+{##}
+{#              <div class="card-body">#}
+{#              <p class="card-text">{{ product.description }}</p>#}
+{#              </div>#}
+{#          </div>#}
+{#          </div>#}
+{#          <div class="card-footer d-flex justify-content-md-end">#}
+{#            <form action="{% url 'store:index' product.id %}" method="POST">#}
+{#          H:{{ product.image.height }}#}
+{#          W:{{ product.image.width }}#}
+{#              <input class="btn btn-outline-success fs-5 {% if not user.is_authenticated %}disabled{% endif %}"#}
+{#                     type="submit" value="{{ product.price }} руб.">#}
+{#            </form>#}
+{#            </div>#}
+{#              </div>#}
+{#        <div class="{% if product.image.width > product.image.height %}col-6{% else %}col-4{% endif %} p-2">#}
+{##}
+{#        {% endif %}#}
+{#        </div>#}
+{#      {% endfor %}#}
+{#  </div>#}
+{#  </div>#}
+{#{% endblock %}#}
+
+
+
+{##}
+{#{% block content %}#}
+{#  <div class="container p-4">#}
+{#    <div class="row row-cols">#}
+{#      {% for product in context %}#}
+{#        <div class="{% if product.image.width > product.image.height %}col-6{% else %}col-4{% endif %} p-2">#}
+{#          <div class="card h-100 text-bg-light">#}
+{#            <a href="{% url 'store:product-detail' product.id %}">#}
+{#              <img class="img-fluid rounded-3" src="{{ product.image.url }}" alt=""></a>#}
+{#            <div class="card-body">#}
+{#              <h5 class="card-text">{{ product.product_name }}</h5>#}
+{#              <p class="card-text">{{ product.description }}</p>#}
+{#            </div>#}
+{#          <div class="card-footer d-flex justify-content-md-end">#}
+{#            <form action="{% url 'store:index' product.id %}" method="POST">#}
+{#          H:{{ product.image.height }}#}
+{#          W:{{ product.image.width }}#}
+{#              <input class="btn btn-outline-success fs-5 {% if not user.is_authenticated %}disabled{% endif %}"#}
+{#                     type="submit" value="{{ product.price }} руб.">#}
+{#            </form>#}
+{#          </div>#}
+{##}
+{#        </div>#}
+{#        </div>#}
+{#      {% endfor %}#}
+{#  </div>#}
+{#  </div>#}
+{#{% endblock %}#}
+{##}
+{##}
+{##}

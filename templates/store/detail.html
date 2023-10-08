@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6 p-2">
+
+        <div class="card">
+          <img class="img-fluid" src="{% if product.image %}{{ product.image.url }}{% else %}
+                                      {% static "store/image/plate-640x480.jpg" %}{% endif %}" alt="">
+          <!-- Modal -->
+          <div class="modal fade" id="change_img" tabindex="-1" aria-labelledby="exampleModalLabel"
+               aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Изменить фото</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form method="POST" enctype="multipart/form-data" id="image">
+                    {% csrf_token %}
+                    {{ form }}
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="submit" form="image" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">{{ product.product_name }}</h5>
+            <p class="card-text">{{ product.description }}</p>
+          </div>
+          <div class="card-footer d-flex justify-content-md-end">
+            {% if user.is_authenticated %}
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-outline-success me-2" data-bs-toggle="modal"
+                      data-bs-target="#change_img">
+                Изм. фото
+              </button>
+              <a href="{% url 'store:product-edit' product.id %}" class="btn btn-outline-success me-2
+                       {% if not user.is_authenticated %}disabled{% endif %}">Редактировать </a>
+            {% endif %}
+            <form action="{% url 'store:index' product.id %}" method="POST">
+              <input class="btn btn-outline-success fs-5
+                     {% if not user.is_authenticated %}disabled{% endif %}"
+                     type="submit" value="{{ product.price }} руб.">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

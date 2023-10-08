@@ -5,18 +5,21 @@
 {% block content %}
   <div class="container">
     <div class="row">
-      <div class="p-4 col-md-3">
-        <h4>Заказы за последние:</h4>
+      <div class="mt-4 col-md-2">
+        <div class="d-float text-bg-light border rounded-3 text-center pt-2">
+
+        <h6>Заказы за последние:</h6>
         <p><a href="{% url 'store:order_list' 7  %}" class="btn btn-success w-75">7 дней</a></p>
         <p><a href="{% url 'store:order_list' 30  %}" class="btn btn-success w-75">30 дней</a></p>
         <p><a href="{% url 'store:order_list' 365  %}" class="btn btn-success w-75">365 дней</a></p>
         <p><a href="{% url 'store:order_list'  %}" class="btn btn-success w-75">Все</a></p>
+        </div>
       </div>
-      <div class="p-4 col-md-9">
+      <div class="mt-4 col-md-10">
         {% for order in orders %}
           <table class="table table-striped text-center p-4 table-hover table-bordered">
             <thead>
-            <tr class="table-dark fs-5">
+            <tr class="table-dark fs-6">
               <th scope="col">Заказ №{{ order.id }}</th>
               <th scope="col">Общая сумма {{ order.total_price }} руб.</th>
               <th scope="col">Дата {{ order.date }}</th>

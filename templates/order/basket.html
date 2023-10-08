@@ -6,12 +6,12 @@
 
 
 {% block content %}
-  <div class="container p-4">
-    <div class="col p-4 m-4 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
-      <p class="text-center fs-4">{{ msg }}</p>
+  <div class="container">
+    <div class="col pt-3 mt-4 text-bg-light border border-success-subtle rounded-3">
+      <p class="text-center fs-5">{{ msg }}</p>
     </div>
     {% if order %}
-      <table class="table table-striped text-center">
+      <table class="table table-striped text-center mt-4">
         <thead>
         <tr class="table-dark">
           <th scope="col">Товар</th>
@@ -27,7 +27,7 @@
             <td>{{ product.1 }}</td>
             <td>{{ product.2 }}</td>
             <td>{{ product.3 }} руб.</td>
-            <td>{{ product.6 }}</td>
+            <td>{{ product.7 }}</td>
             <td>
               <button class="btn btn-sm btn-success" disabled>Удалить</button>
             </td>

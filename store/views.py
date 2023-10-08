@@ -4,6 +4,7 @@ from django.shortcuts import render, get_object_or_404
 from django.views.decorators.csrf import csrf_exempt
 from .models import Product, Order, User, OrderProductCount
 from datetime import date, timedelta
+from account.forms import ProductForm, ImageForm
 
 logger = logging.getLogger(__name__)
 
@@ -58,12 +59,42 @@ def order_detail(request, order_id):
                   {'msg': "История заказов."})
 
 
+def product_detail(request, id):
+    product = Product.objects.filter(pk=id).first()
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            product.image = image
+            product.save()
+    else:
+        form = ImageForm()
+    return render(request, 'store/detail.html', {'product': product, "form": form})
+
+
+def product_edit(request, id):
+    product = Product.objects.filter(pk=id).first()
+    if request.method == 'POST':
+        form = ProductForm(request.POST)
+        if form.is_valid():
+            product.product_name = form.cleaned_data['name']
+            product.description = form.cleaned_data['description']
+            product.price = form.cleaned_data['price']
+            product.save()
+    else:
+        product_info = {"name": product.product_name,
+                        "description": product.description,
+                        "price": product.price}
+        form = ProductForm(product_info, auto_id=False)
+    return render(request, 'store/edit.html', {'product': product, "form": form})
+
+
 @csrf_exempt
 def index(request, id=None):
     context = Product.objects.all()
     if request.method == 'POST':
         add_to_cart(id, request.user.pk)
-    return render(request, 'store/index.html', {"context": context})
+    return render(request, 'store/index.html', {'context': context})
 
 
 def add_to_cart(product_id, user_pk):

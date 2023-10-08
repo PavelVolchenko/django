@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.base_user import AbstractBaseUser
+from django.urls import reverse
 
 
 class User(AbstractBaseUser):
@@ -20,6 +21,7 @@ class Product(models.Model):
     product_name = models.CharField(max_length=128)
     description = models.CharField(max_length=1024, null=True)
     price = models.IntegerField(null=True)
+    image = models.ImageField(upload_to='store/%Y-%m-%d', blank=True)
     quantity = models.IntegerField(default=0)
     was_added = models.DateField(auto_now_add=True)
 
@@ -27,10 +29,6 @@ class Product(models.Model):
         return (f"\n|        name: {self.product_name}\n"
                 f"| description: {self.description}\n"
                 f"|       price: {self.price}")
-
-    def get_absolute_url(self):
-        from django.urls import reverse
-        return reverse('store.views.add_to_cart', args=[str(self.id)])
 
 
 class CompletedOrderManager(models.Manager):
